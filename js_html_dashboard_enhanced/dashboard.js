@@ -56,7 +56,7 @@ async function init() {
     return;
   }
 
-  d3.select(".subtitle").text("This project explores how Steam game hardware costs change over time. The goal is to compare CPU, GPU, and RAM trends and spot budget-friendly setups.");
+  d3.select(".subtitle").text("This project explores how Steam game hardware costs change over time. The goal is to compare CPU, GPU, and RAM trends and spot budget friendly setups.");
 
   state.gpuDomain = Array.from(new Set(state.raw.map(d => d.gpu_brand))).sort(d3.ascending);
   setupControls();
