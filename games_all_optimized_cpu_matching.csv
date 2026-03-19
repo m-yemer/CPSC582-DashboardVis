@@ -1,0 +1,517 @@
+appid,game_name,release_year,rec_cpu_requirement,rec_gpu_requirement,rec_ram_gb,matched_cpu_chipset,matched_cpu_price,matched_gpu_chipset,matched_gpu_price,matched_ram_size,matched_ram_price,total_estimated_price
+352190,Spirit of War,2015,2nd generation Intel Core i5,2 Gb Nvidia or AMD DX9 capabilities,4,Intel Core i5-4570T,49,GeForce GT 730,59.99,4 GB,5,113.99
+404860,Inside Me,2015,Intel Core i3 3.07 GHz,GeForce 250 GTS or Radeon HD 5750 or better,4,Intel Xeon E3-1220 V6,25,GeForce GT 730,59.99,4 GB,5,89.99
+356210,Tony Tough and the Night of Roasted Moths,2015,1.5 GHz Processor,100% DirectX compatible graphics,1,Intel Pentium E2220,12.99,GeForce GT 730,59.99,2 GB,11,83.98
+408750,Starsphere,2015,1.4GHz processor or faster,DirectX 8-compatible graphics card with at least 32MB of video memory,1,Intel Pentium E2220,12.99,GeForce GT 710,45.99,2 GB,11,69.98
+365060,Titanis,2015,2.5 GHz,OpenGL 3.1,2,Intel Pentium E5700,14.99,GeForce GT 730,59.99,2 GB,11,85.98
+290340,Armello,2015,Quad-core 2.5GHz (SSE2),DirectX 11 SM4.0 capable GPU with 2GB VRAM,4,Intel Pentium E5700,14.99,GeForce GTX 750 Ti,395,4 GB,5,414.99
+262190,Zombeer,2015,2.00 GHz Intel® Core™2 Duo or similar,1024 MB DirectX® 10—compliant with Shader Model 4.0 or higher,4,Intel Pentium E2220,12.99,GeForce GTX 750 Ti,395,4 GB,5,412.99
+360720,Soda Star,2015,1.2 GHz processor,DirectX 9-compatible graphics card with at least 32MB of video memory,0.5,Intel Pentium E2220,12.99,GeForce GT 710,45.99,2 GB,11,69.98
+354180,Bunker - The Underground Game,2015,2.5 GHz (Single Core) or 2 GHz (Dual Core),OpenGL 2.0 compatible with 512 MB RAM (Shared Memory is not recommended),4,Intel Pentium E5700,14.99,GeForce GT 730,59.99,4 GB,5,79.98
+338000,Echoes+,2015,1GHz processor or faster,Pixel Shader 2.0 and Vertex Shader 2.0,0.5,Intel Pentium E2220,12.99,GeForce GT 710,45.99,2 GB,11,69.98
+279720,The I of the Dragon,2015,Intel or AMD Dual Core CPU,Shader 3.0 or higher,4,Intel Pentium E2220,12.99,GeForce GT 730,59.99,4 GB,5,77.98
+367040,InsanZ - Retro Survival Horror,2015,Pentium 4 2.66 Ghz (or equivalent),ATI or NVidia card 1024 MB RAM,3,Intel Pentium E5700,14.99,GeForce GTX 1660,231.32,4 GB,11.77,258.08
+351710,Hyperdimension Neptunia Re;Birth2: Sisters Generation,2015,3GHz Intel i3 or equivalent,DirectX 10.x or OpenGL 3.3 or better graphics card with 1 GB RAM and support for v4 shaders,6,Intel Pentium E5700,14.99,GeForce GTX 460,154.87,16 GB,31.99,201.85
+410540,Starlord,2015,1.5 GHz Processor,100% DirectX compatible graphics,0.3,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,2 GB,11.74,179.60
+395860,The Last Dream: Developer's Edition,2015,2Ghz,512 MB VRAM,2.0,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,2 GB,11.74,179.60
+332730,Barbarian Brawl,2015,64-bit Dual Core CPU running at 3.0 GHz or higher,Dedicated graphics card supporting Shader Model 3.0 and 1 GB,4,Intel Pentium E5700,14.99,GeForce GTX 460,154.87,4 GB,11.77,181.63
+336710,Supreme League of Patriots - Episode 2: Patriot Frames,2015,2 GHz (Dual Core),AMD or Nvidia with 512MB VRAM,4,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,4 GB,11.77,179.63
+284220,Diadra Empty,2015,Intel® 2 GHz Processor or comparable,DirectX® 9-level Graphics Card,1,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,2 GB,11.74,179.60
+312230,Spirits of Xanadu,2015,3 GHz dual-core or better,Dedicated graphics card with 512MB of VRAM and shader model 3.0,4,Intel Pentium E5700,14.99,GeForce GTX 460,154.87,4 GB,11.77,181.63
+367220,Egyptian Settlement Gold,2015,Intel I5,DirectX compatible 3D graphic adapter,4,Intel Core i5-2400,49.99,GeForce GTX 460,154.87,4 GB,11.77,216.63
+373330,All Is Dust,2015,Intel Core i7 4770,Nvidia GTX 660 2GB,16,Intel Core i7-4770K,99,GeForce GTX 1660,231.32,16 GB,43.83,374.15
+268870,Satellite Reign,2015,x86 Quad Core 3.4GHz or greater,DirectX 11 GPU with 2GB of memory,4,Intel Xeon E3-1220 V6,25,GeForce GTX 760,269,4 GB,11.77,305.77
+350010,Time Mysteries: Inheritance - Remastered,2015,2 GHz,256 MB VRAM,1,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,2 GB,11.74,179.60
+387840,Alpha Runner,2015,1.4GHz processor or faster,DirectX 8-compatible graphics card with at least 32MB of video memory,1,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,2 GB,11.74,179.60
+410710,System Shock: Enhanced Edition,2015,1.5 GHz Processor,Any 100% OpenGL capable card (Card or Onboard),0.3,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,2 GB,11.74,179.60
+395900,Backgammon Blitz,2015,2.0+ GHz Dual Core,NVIDIA GeForce GTX 650 or AMD Radeon HD 6800,3,Intel Core i3-7100T,29,Radeon RX 6500 XT,110.49,4 GB,11.77,151.26
+403670,Lumber Island - That Special Place,2015,Dual Core 3.0GHz or equivalent,NVidia GeForce GTX 650 or AMD Radeon 775 or higher,4,Intel Pentium E5700,14.99,Radeon RX 6500 XT,110.49,4 GB,11.77,137.25
+368950,Jigoku Kisetsukan: Sense of the Seasons,2015,2.2 GHz processor,DirectX 9.0c support,2,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+365680,BRAWL,2015,Intel Core2 Duo 3Ghz,nVidia GeForce GTX 660 2GB,4,Intel Pentium E5700,14.99,GeForce GTX 1660,231.32,4 GB,11.77,258.08
+291770,The Last Crown: Midnight Horror,2015,3.0 Ghz,256 MB DX 9.0c compliant video card,2,Intel Pentium E5700,14.99,GeForce GTX 460,154.87,2 GB,11.74,181.60
+347820,Street Arena,2015,Quad Core 2.0 GHz,GeForce 460 GTX,2,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,2 GB,11.74,179.60
+397270,A Kiss For The Petals - Remembering How We Met,2015,Pentium IV 1 GHz +,DirectX or OpenGL Compatible Card,1.0,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,2 GB,11.74,179.60
+339850,Overclocked: A History of Violence,2015,2 GHz Dual Core Intel or AMD processor,DirectX 9 compliant video card Shader Model 3,2,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+410490,Elements: Epic Heroes,2015,Intel Core i5 2.5 MHz,DirectX 9.0c compatible graphics card,1,Intel Pentium E5700,14.99,GeForce 9500 GT,119.99,2 GB,11.74,146.72
+411680,Loot Hound™,2015,Intel Core i3 or AMD Ryzen 3 5300G,Geforce GTX 1650 or higher,8,Intel Core i3-7100T,29,GeForce GTX 1650 SUPER,419,16 GB,31.99,479.99
+403700,Zero Punctuation: Hatfall - Hatters Gonna Hat Edition,2015,1.8GHz processor or faster,DirectX 9-compatible graphics card with at least 1024MB of video memory,4,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,4 GB,11.77,144.75
+370310,Tompi Jones,2015,Corei5,DirectX 9 compatible graphics card with 4 GB memory,4,Intel Core i5-2400,49.99,GeForce 9500 GT,119.99,4 GB,11.77,181.75
+393170,Bit Shifter,2015,3.0GHz,512MB OpenGL compatible,4,Intel Pentium E5700,14.99,GeForce GTX 460,154.87,4 GB,11.77,181.63
+385980,Scott in Space,2015,2.0 GHz Dual Core Processor,512 MB nVidia or AMD card with support for OpenGL 2.0+,4,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,4 GB,11.77,179.63
+368760,Playing History: Vikings,2015,Intel Core i5 2.5 GHz,NVIDIA GTX 560Ti &amp; higher / 1GB VRAM,4,Intel Pentium E5700,14.99,GeForce GTX 560 Ti,701.12,4 GB,11.77,727.88
+429040,Furfly,2015,2.4 Ghz,1GB VRAM,2,Intel Pentium E2220,12.99,GeForce GTX 1660,231.32,2 GB,11.74,256.05
+338960,Rescue Team,2015,1 GHz,Video 128 MB RAM,1,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+367780,Aero's Quest,2015,2 GHz or higher,1GB VRAM or better,2,Intel Pentium E2220,12.99,GeForce GTX 1660,231.32,2 GB,11.74,256.05
+369570,Spectra,2015,2.8 GHz Quad Core,1-2 GB VRAM,4,Intel Pentium E5700,14.99,GeForce GTX 760,269,4 GB,11.77,295.76
+365420,Apollo4x,2015,2.0 Ghz,DirectX Compatible,2.0,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+391960,Super Mega Bob,2015,Intel Core2 Duo T9400 @ 2.53GHz or comparable processor,512MB+ supporting Shader Model 2.0 and DirectX 9.0c.,8,Intel Pentium E5700,14.99,GeForce 9500 GT,119.99,16 GB,31.99,166.97
+336730,Supreme League of Patriots - Episode 3: Ice Cold in Ellis,2015,2 GHz (Dual Core),AMD or Nvidia with 512MB VRAM,4,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,4 GB,11.77,179.63
+396890,Gridworld,2015,3.0+ GHz quad-core CPU (e.g. Intel Core i5 / Ryzen 5),Dedicated GPU with OpenGL 4.3+ (e.g. NVIDIA GTX 1050 / AMD RX 560 or newer),16,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,16 GB,43.83,357.81
+334960,Cell HD: emergence,2015,quad core,graphics card compatible with XNA HiDef Profile (roughly DirectX 10),4,Intel Xeon E3-1220 V6,25,GeForce GTX 460,154.87,4 GB,11.77,191.64
+394280,Dark Heritage: Guardians of Hope,2015,2 GHz,256 MB VRAM,1,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,2 GB,11.74,179.60
+340450,Crashed Lander,2015,Intel Core i5 or equivalent,NVidia 560ti or equivalent,2,Intel Core i5-2400,49.99,GeForce GTX 660 Ti,239,2 GB,11,299.99
+304580,CITYCONOMY: Service for your City,2015,Quad-core Intel Core i7 processor with 3.6 GHz or better,DirectX 11-compatible graphics card (NVIDIA GeForce GTX 780 or better),6,Intel Pentium Gold G5420,29,GeForce GTX 760,269,16 GB,31.99,329.99
+345580,Universal Combat CE,2015,Quad Core,DirectX SM3.0 compliant with 1GB memory,4,Intel Xeon E3-1220 V6,25,GeForce GTX 460,154.87,4 GB,11.77,191.64
+274170,Hotline Miami 2: Wrong Number,2015,2.8 GHz Intel Core 2 Duo or better,OpenGL 3.2 compatible GPU with at least 512MB of VRAM,2,Intel Pentium E5700,14.99,GeForce GTX 460,154.87,2 GB,11.74,181.60
+392690,Erwin's Timewarp,2015,Intel Core i5,NVIDIA GeForce GTX 660 Ti 2GB,4,Intel Core i5-2400,49.99,GeForce GTX 660 Ti,239,4 GB,5,293.99
+255710,Cities: Skylines,2015,Intel® Core™ I7 2700K | AMD® Ryzen 7 2700X,Nvidia® GeForce™ GTX 580 (1.5 GB) | AMD® Radeon™ RX 560 (4 GB),16,Intel Pentium E5700,14.99,Radeon RX 580,159.99,16 GB,43.83,218.81
+349140,Corrosion: Cold Winter Waiting [Enhanced Edition],2015,Dual Core 2 GHz,128 MB DirectX compatible graphics card,0.5,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,2 GB,11.74,179.60
+353700,The Deadly Tower of Monsters,2016,Intel Core i5,NVIDIA GeForce GTX 280,4,Intel Core i5-2400,49.99,GeForce GTX 570,398,4 GB,11.77,459.76
+547920,Our Darkest Night,2016,Intel Core i5 (or equivalent),4 GB VRAM Compatible with DirectX 11,1.0,Intel Core i5-2400,49.99,GeForce GTX 760,269,2 GB,11.74,330.73
+520990,Barrow Hill: The Dark Path,2016,3.0 Ghz,256 MB DX 9.0c compliant video card,2,Intel Pentium E5700,14.99,GeForce GTX 460,154.87,2 GB,11.74,181.60
+500810,Arcanum: Of Steamworks and Magick Obscura,2016,1.4 GHz,DirectX 9 Compatible 3D Card,0.5,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+514490,Ultimate Word Search 2: Letter Boxed,2016,1.0 GHz,vCard with DirectX 9.0 support,2,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+461180,SurrealVR,2016,Intel i7-4770,NVIDIA GTX 980,16,Intel Core i7-4770K,99,GeForce GTX 980,389,16 GB,43.83,531.83
+527340,What The Box?,2016,Intel Core i5 or higher,Geforce GT 740 / Radeon R7 250 or above,4,Intel Core i5-2400,49.99,GeForce GT 740,147,4 GB,5,201.99
+513060,Wills and Wonders,2016,Quad Core 2.66 GHz,Geforce GTX 660 Ti,4,Intel Pentium E5700,14.99,GeForce GTX 660 Ti,239,4 GB,5,258.99
+531660,Exoplanet: First Contact,2016,Intel i7 4770k / AMD Ryzen 5 1500X,NVIDIA GeForce GTX 780 / AMD Radeon R9 290X,16,AMD Ryzen 5 5500,74.22,Radeon RX 7800 XT,599.99,16 GB,43.83,718.04
+403590,Klepto,2016,Intel Core i7,NVIDIA GeForce GTX 980,12,Intel Core i7-3770,98.69,GeForce GTX 980,389,32 GB,59.99,547.68
+421660,Harmonia,2016,Intel Core i3 or higher,512MB Video Memory (with Pixel Shader 2.0),2,Intel Core i3-7100T,29,GeForce GTX 460,154.87,2 GB,11.74,195.61
+465780,New Retro Arcade: Neon,2016,Intel i7-4770,NVIDIA GTX 980,16,Intel Core i7-4770K,99,GeForce GTX 980,389,16 GB,43.83,531.83
+406870,Eventide: Slavic Fable,2016,2 GHz,256 MB VRAM,1,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,2 GB,11.74,179.60
+211820,Starbound,2016,Core i3,Discrete GPU capable of directx 9.0c,4,Intel Core i3-7100T,29,GeForce 9500 GT,119.99,4 GB,11.77,160.76
+445070,Tatsu,2016,2 gHz,OpenGL 3+,1,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,2 GB,11.74,179.60
+443450,LASTFIGHT,2016,Intel Core i5-4460 @3.20GHz or AMD FX-9370,NVIDIA® GeForce® GTX 760 or AMD Radeon R7 370,4,Intel Core i5-2400,49.99,Radeon RX 7600,274.99,4 GB,11.77,336.75
+564960,Return to Krondor,2016,1.4 GHz,DirectX 9 Compatible 3D Card,0.5,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+543150,Guardian of The Demon Valley,2016,Intel i7-4770 3.4 GHz,NVIDIA GTX 980,16,Intel Core i7-4770K,99,GeForce GTX 980,389,16 GB,43.83,531.83
+503680,The Seeker,2016,Intel® Core i7-3820 or AMD FX 8320E,NVidia GTX 660+ or ATI Radeon HD 7870+,2.0,Intel Core i7-3770,98.69,GeForce GTX 660 Ti,239,2 GB,11,348.69
+371010,Nomad Fleet,2016,Core i5/i7 or equivalent,1 GB DX11 Compliant with PS 3.0 support,8,Intel Core i5-2400,49.99,GeForce GTX 460,154.87,16 GB,31.99,236.85
+246620,Plague Inc: Evolved,2016,3.0GHz i5 Dual Core or equivalent,Nvidia GeForce GTX 650 Radeon HD 3600 (1GB),2,Intel Pentium E5700,14.99,Radeon RX 6500 XT,110.49,2 GB,11.74,137.22
+531860,Where's My What?,2016,2.0 GHz,vCard with DirectX 9.0 support,2,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+477950,Simple Spy,2016,2.4 GHz,1 GB Video Memory,4,Intel Pentium E2220,12.99,GeForce GTX 1660,231.32,4 GB,11.77,256.08
+533890,ReBoot,2016,Dual Core processor,Compatible with DirectX11 with 1024 MB RAM or better,4,Intel Pentium E2220,12.99,GeForce GTX 760,269,4 GB,11.77,293.76
+460920,Steep™,2016,Intel Core i7 3770K at 3.5 Ghz or AMD FX-8350 at 4.0 Ghz,GeForce GTX 970 or Radeon R9 390,8,Intel Core i7-3770,98.69,GeForce GTX 970,100,8 GB,11.99,210.68
+456160,Flag N Frag,2016,1.4GHz processor or faster,DirectX 8-compatible graphics card with at least 32MB of video memory,1,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+478010,ABC Coloring Town,2016,1.0 GHz,vCard with DirectX 9.0 support,2,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+529420,Crazy Sapper 3D,2016,Dual Core 2.3 GHZ,512 MB VRAM,1,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+468320,Mini Golf Mundo,2016,2.0 GHz,vCard with DirectX 9.0 support,2,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+485310,Head Shot,2016,3 GHz Dual-Core 64-bit CPU,DirectX11 Compatible GPU with 2 GB Video RAM,2,Intel Pentium E5700,14.99,GeForce GTX 760,269,2 GB,11.74,295.73
+527160,Cmoar VR Cinema,2016,Intel i7-3770 equivalent or greater,NVIDIA® GeForce® GTX 980 equivalent or greater,4,Intel Core i7-3770,98.69,GeForce GTX 980,389,4 GB,11.77,499.46
+507490,Ashes of the Singularity: Escalation,2016,Intel Core i5 or Equivalent,4 GB GDDR5 NVidia GTX 970 / AMD R9 390 or better,16,Intel Core i5-4570T,49,GeForce GTX 970,100,16 GB,17.51,166.51
+459820,Crush Crush,2016,Modern Intel/AMD CPU 2GHz+,Graphics card with DX9 (shader model 2.0) capabilities. Anything made since 2004 should work.,2,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+516940,MineSweeper VR,2016,Intel i5-4590 / AMD FX 8350 equivalent or greater,NVIDIA GeForce® GTX 970 / AMD Radeon™ R9 290 equivalent or greater,8,Intel Core i5-4570T,49,GeForce GTX 970,100,8 GB,11.99,160.99
+501970,Phantasmagoria 2: A Puzzle of Flesh,2016,1.4 GHz,DirectX 9 Compatible 3D Card,0.5,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+410390,Warhammer: Vermintide VR - Hero Trials,2016,SKL i7 6700K or equivalent,NVIDIA GeForce GTX 980 or equivalent,16,Intel Core i7-6700,123,GeForce GTX 980,389,16 GB,43.83,555.83
+477770,Ride 2,2016,Intel Core i5 4670K 3.4 GHz / AMD FX-9590 4.7 GHz or equivalent,GeForce GTX 970 / AMD Radeon R9 390 4GB*,8,Intel Core i5-4570T,49,GeForce GTX 970,100,8 GB,11.99,160.99
+540410,Queendoom,2016,Intel® Core™ i5-6500 3.2 Ghz,NVIDIA® GeForce GTX 980,8,Intel Core i5-6500,87.13,GeForce GTX 980,389,16 GB,31.99,508.12
+444800,NO THING,2016,2.0 Ghz+,Pixel Shader 3.0,4,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,4 GB,11.77,144.75
+563160,VR the Anime Girls Method / 全豚に告ぐ！これで痩せなきゃお前は終わりだ！,2016,Intel i7-6700 equivalent or better,Nvidia GeForce GTX 980 or better,8,Intel Core i7-6700,123,GeForce GTX 980,389,16 GB,31.99,543.99
+507440,Island Simulator 2016,2016,I7 3.5GHZ or better,Nvidia GTX 980 or better,8,Intel Xeon E3-1220 V6,25,GeForce GTX 980,389,16 GB,31.99,445.99
+444620,SpellKnights,2016,Intel(R) Core(TM) i5-3570k CPU @ 3.40GHz,AMD Radeon HD 7900 Series,7.8,Intel Core i5-3570K,128.99,Radeon HD 7950,358.26,8 GB,11.99,499.24
+413420,Danganronpa 2: Goodbye Despair,2016,Intel(R) Core(TM) i5-3470 or better,OpenGL 3.2 compatible GPU with at least 1GB of VRAM,4,Intel Core i5-3470,95.46,GeForce 9500 GT,119.99,4 GB,11.77,227.22
+394540,Spaceport Hope,2016,2.0GHz processor or higher,OpenGL 4.0 + 1GB VRAM or higher,2,Intel Pentium E2220,12.99,GeForce GTX 660 Ti,239,2 GB,11,262.99
+470220,UNO,2017,Intel Core i3 530,NVIDIA GTX 560TI or AMD 5870,4,Intel Core i3-530,45,GeForce GTX 660 Ti,239,4 GB,5,289.00
+404070,Lords of New York,2017,Core 2 Duo 3GHz or better,ATI or NVidia card w/ 1024 MB RAM,3,Intel Pentium E5700,14.99,GeForce GTX 750 Ti,395,4 GB,5,414.99
+746990,Prelude: Psychological Horror Game,2017,3 ghz,Nvidia GTX 960,8,Intel Pentium E5700,14.99,GeForce GTX 960,249,16 GB,31.99,295.98
+566690,Meriwether: An American Epic,2017,Intel Core i7 or equivalent,NVIDIA GeForce GTX 770 or AMD R9 280,8,Intel Core i7-3770,98.69,Radeon RX 7700 XT,399.97,16 GB,31.99,530.65
+544970,Milkmaid of the Milky Way,2017,Intel i5 or better,Medium Powered DirectX10 Card,2,Intel Core i5-2400,49.99,GeForce 9500 GT,119.99,2 GB,11.74,181.72
+455190,Domain Defense VR,2017,Intel Core i5 or Equivalent,Geforce GTX 980 or 1060,2,Intel Core i5-2400,49.99,GeForce GTX 980,389,2 GB,11.74,450.73
+589080,Enigma Sphere :Enhanced Edition,2017,Intel Core i7 6700K equivalent or greater,NVIDIA GTX 980 / AMD equivalent or greater,16,Intel Core i7-6700,123,GeForce GTX 980,389,16 GB,43.83,555.83
+597720,Stunt Toys,2017,2.5+ GHz Quad core,Nvidia GTX 970 or above (AMD equivalent),4,Intel Core i5-4570T,49,GeForce GTX 970,100,4 GB,5,154.00
+719130,OVO Smash!,2017,2.4 Ghz (Intel Core i5 / AMD Phenom II),GeForce 8000+ / Radeon HD 5000+,4,Intel Pentium E2220,12.99,GeForce GT 740,147,4 GB,5,164.99
+722040,Cargo Breach,2017,Intel Core i7 6700K equivalent or greater,NVIDIA GTX 980 / AMD equivalent or greater,16,Intel Core i7-6700,123,GeForce GTX 980,389,16 GB,43.83,555.83
+570580,Zork Anthology,2017,1.4 GHz,DirectX 9 Compatible 3D Card,0.5,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+547970,Celestial Breach,2017,Quad Core CPU @3 Ghz or faster,Desktop Nvidia GTX 960 or faster,8,Intel Pentium E5700,14.99,GeForce GTX 960,249,16 GB,31.99,295.98
+530820,Subject A-119,2017,Intel I5-4460 or AMD FX 8350,NVIDIA GeForce GTX 970 or AMD Radeon R9 290,8,Intel Core i5-4570T,49,GeForce GTX 970,100,8 GB,11.99,160.99
+708580,Exorcism of the Legion (Last Rites) DELISTED,2017,Intel Core i7,NVIDIA GTX 980 / AMD equivalent or greater,16,Intel Core i7-3770,98.69,GeForce GTX 980,389,16 GB,43.83,531.52
+747130,Haunted Dream House,2017,1600MHz 64-bit (x64),DirectX,0.2,Intel Core i7-3770,98.69,GeForce 9500 GT,119.99,2 GB,11.74,230.42
+682810,GUTS,2017,Intel or AMD 3.0 Ghz,GeForce GTX 660 2gb,8,Intel Pentium E5700,14.99,GeForce GTX 660 Ti,239,8 GB,11.99,265.98
+720600,Halloween: Jigsaw Puzzles,2017,1.0 GHz,vCard with DirectX 9.0 support,2,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+625370,A SECOND BEFORE US,2017,3.0 GHz Quad Core CPU,2GB NVIDIA GTX 660 / Radeon RX 460 or better,6,Intel Pentium E5700,14.99,Radeon RX 6600,219.99,16 GB,31.99,266.97
+726260,Bit Bullet,2017,Intel CPU Core i5,Nvidia GTX 660 or newer,8,Intel Core i5-4570T,49,GeForce GTX 660 Ti,239,8 GB,11.99,299.99
+649640,Ashes Cricket,2017,Intel Core i5-4200 / AMD Phenom II X4 970,AMD Radeon R9 390X or NVIDIA GeForce GTX 970 with minimum 2GB Memory,8,Intel Core i5-4570T,49,GeForce GTX 970,100,8 GB,11.99,160.99
+648750,Tokaido,2017,Intel Core i5,Nvidia GTX960,4,Intel Core i5-2400,49.99,GeForce GTX 960,249,4 GB,11.77,310.76
+659870,Don't Die!,2017,3.0GHz i5 Dual Core or equivalent,NVIDIA GeForce GTX 650 or Radeon HD 3600 (1GB),2,Intel Pentium E5700,14.99,Radeon RX 6500 XT,110.49,2 GB,11.74,137.22
+721510,Renters Revenge,2017,Intel i7-4770 equivalent or greater,NVIDIA GTX 980 / AMD equivalent or greater,8,Intel Core i7-4770K,99,GeForce GTX 980,389,16 GB,31.99,519.99
+657990,Crafting Dead,2017,3 GHz,Nvidia GTX 760,8,Intel Pentium E5700,14.99,GeForce GTX 760,269,16 GB,31.99,315.98
+634150,ReSizE,2017,Intel Core i3 6300 or better,NVIDIA GTX950 or better,0.0,Intel Core i3-6300,99.99,GeForce GTX 950,199,2 GB,11.74,310.73
+550590,Archaica: The Path of Light,2017,Intel Core i3,NVIDIA GeForce GTX 760,4,Intel Core i3-7100T,29,GeForce GTX 760,269,4 GB,11.77,309.77
+637860,斩毒：黑与白（Narcotics Police:Black and White）,2017,intel i5及以上,GTX950及以上,16,Intel Core i5-2400,49.99,GeForce GTX 950,199,16 GB,43.83,292.82
+745710,SMACKHEAD,2017,1.5 Ghz or faster,256 MB video memory,1,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+767560,War Robots,2018,3.2 GHz,NVIDIA GTX 960,8,Intel Xeon E3-1220 V6,25,GeForce GTX 960,249,16 GB,31.99,305.99
+820600,ReThink | Evolved 2,2018,AMD Ryzen 3 / Intel Core i3,AMD R9 290 / nvidia GTX 970,4,Intel Core i3-7100T,29,GeForce GTX 970,100,4 GB,5,134.00
+799270,Looney Rally,2018,AMD FX-6300 or Intel Core i5-3570K,Nvidia GeForce GTX 660 or AMD Radeon HD 7850,0.0,Intel Core i5-4570T,49,GeForce GTX 660 Ti,239,2 GB,11,299.00
+848410,Detached: Non-VR Edition,2018,Intel Core i7-3770K Quad Core CPU or better,NVIDIA GTX 980 / AMD Radeon R9 390X equivalent or greater.,8,Intel Core i5-2400,49.99,GeForce GTX 980,389,16 GB,31.99,470.98
+508410,SKIPCHASER,2018,1.5 GHz processor,OpenGL 2.1 or higher (available in most modern Windows systems),2,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,2 GB,11.74,144.72
+595260,Heat Guardian,2018,Intel i5,GeForce GTX 660,16,Intel Core i5-4570T,49,GeForce GTX 660 Ti,239,16 GB,17.51,305.51
+774351,Citystate,2018,Intel Core i7-4770,Radeon HD 3200,4,Intel Core i7-4770K,99,Radeon Pro WX 3200,132.69,4 GB,11.77,243.46
+704850,Thief Simulator,2018,Intel Core i7,NVidia GeForce GTX 1050,8,Intel Core i7-3770,98.69,GeForce GTX 1050 Ti,263.99,16 GB,31.99,394.67
+770500,Goblin Gearshop,2018,Dual Core @2.60GHz,NVIDIA GeForce GTX 660 / AMD Radeon R7 260X,2,Intel Pentium E5700,14.99,GeForce GTX 660 Ti,239,2 GB,11,264.99
+848500,Sniper Strike: Special Ops,2018,Intel Core i5 or AMD Equivalent,NVIDIA Geforce GTX 960,4,Intel Core i5-2400,49.99,GeForce GTX 960,249,4 GB,11.77,310.76
+628290,All Walls Must Fall - A Tech-Noir Tactics Game,2018,Quad-core Intel or AMD processor 2.5 GHz or faster,DX11 compatible video card,8,Intel Pentium E5700,14.99,GeForce 9500 GT,119.99,16 GB,31.99,166.97
+810050,Starbucket,2018,Intel Core i5 3210m and up (or equivalent),Intel HD Graphics 4000 and up (or equivalent) [DX9 (shader model 3.0) or DX11 with feature level 9.3 capabilities],4,Intel Core i5-2400,49.99,GeForce 9500 GT,119.99,4 GB,11.77,181.75
+860070,BULLETLINE,2018,Core i7,SM4 1GB VRAM,6,Intel Core i7-3770,98.69,GeForce GTX 1660,231.32,16 GB,31.99,362.00
+453910,Love is Dead,2018,2.0 GHz Quad Code,Shader Model 3.0 512mb VRAM,4,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,4 GB,11.77,144.75
+839370,The story of Gods 七神物语,2018,Intel Core2 Duo or better,DirectX 9/OpenGL 4.1 capable GPU,2,Intel Core i3-7100T,29,GeForce 9500 GT,119.99,2 GB,11.74,160.73
+775430,Discovery Tour by Assassin’s Creed®: Ancient Egypt,2018,Intel Core i7- 3770 @ 3.5 GHz or AMD FX-8350 @ 4.0 GHz,NVIDIA GeForce GTX 760 or AMD R9 280X (3GB VRAM with Shader Model 5.0 or better),8,Intel Core i7-3770,98.69,GeForce GTX 760,269,8 GB,11.99,379.68
+775850,Piwall,2018,Intel i5-4590/AMD Ryzen 5 1500X or greater,NVIDIA GTX 970/AMD Radeon R9 290 or greater,8,AMD Ryzen 5 5500,74.22,GeForce GTX 970,100,8 GB,11.99,186.21
+859340,Seeking Dawn,2018,Intel® Core™ i7-6700 (3.4GHz and above) / AMD FX™-9370 (4.4GHz and above),AMD Radeon™ R9 Fury X / NVIDIA® GeForce® GTX 1070,8,Intel Core i7-3770,98.69,GeForce GTX 1070,469,16 GB,31.99,599.68
+606150,Moonlighter,2018,Intel(R) Core(TM) i5,GeForce GTX 660,8,Intel Core i5-4570T,49,GeForce GTX 660 Ti,239,8 GB,11.99,299.99
+709050,GHOUL,2018,3.2 GHz Quad Core CPU,NVIDIA® GeForce® GTX 960 or AMD Radeon R7 370,8,Intel Xeon E3-1220 V6,25,GeForce GTX 960,249,16 GB,31.99,305.99
+893680,Project Warlock,2018,Intel Core i5 2400 or AMD X8 FX-8350,GeForce GTX 1050 (2GB) or AMD Radeon RX 480,8,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,16 GB,31.99,345.97
+827770,Pathosis,2018,Intel Core i5 4690K,NVIDIA Geforce GTX 980,8,Intel Core i5-4690,52,GeForce GTX 980,389,16 GB,31.99,472.99
+776100,One Night On The Road,2018,4 ghz,Nvidia GTX 1050 TI,8,AMD FX-4350,55.05,GeForce GTX 1050 Ti,263.99,,31.99,351.03
+840090,Battleground Shooting Training 吃鸡枪法训练器,2018,Intel i7-6700 equivalent or greater,AMD RX 470 or NVIDIA GTX 970,8,Intel Core i7-6700,123,GeForce GTX 970,100,,31.99,254.99
+618670,One Bullet left,2018,Intel Core i5-4670K,Geforce GTX 760,4,Intel Core i5-4670K,105.86,GeForce GTX 760,269,,11.77,386.63
+893370,Absolute Adventure,2018,Intel Core i3 Series,DirectX 9/OpenGL 4.1 capable GPU,8,Intel Core i3-7100T,29,GeForce 9500 GT,119.99,,31.99,180.98
+812140,Assassin's Creed® Odyssey,2018,"AMD FX-8350 @ 4.0 GHz, Ryzen 5 - 1400, Intel Core i7-3770 @ 3.5 GHz or better (MORE DETAILS HERE)","AMD Radeon R9 290, NVIDIA GeForce GTX 970 (4GB VRAM with Shader Model 5.0) or better (MORE DETAILS HERE)",8,Intel Core i7-3770,98.69,GeForce GTX 970,100,,31.99,230.68
+707320,Keatz: The Lonely Bird,2018,Dual Core 2Ghz+,"256 MB of Video Memory, Capable of Shader Model 2.0+",4,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,,11.77,144.75
+788210,The Bonfire: Forsaken Lands,2018,3 GHz,1 GB VRAM,2,Intel Pentium E5700,14.99,GeForce GTX 1660,231.32,,11.74,258.05
+890970,Oakwood,2018,3.0+ GHZ Quad Core,"GTX 660 or better, Radeon HD 7870 or better",16,Intel Core i5-2400,49.99,GeForce GTX 660,,,43.83,93.82
+556050,Hyper Jam,2019,Intel Core i5-4430 @ 3.00GHz (or equivalent),GeForce GTX 960 / Radeon RX 570 (or equivalent),4,Intel Core i5-4430,83,GeForce GTX 960,249,,11.77,343.77
+545040,Feather,2019,3.2GHz CPU Quad Core,Geforce GTX 960 or equivalent,8,Intel Xeon E3-1220 V6,25,GeForce GTX 960,249,,31.99,305.99
+1044020,Potata: fairy flower,2019,Intel Core i5,GeForce GTX 760M,8,Intel Core i5-2400,49.99,GeForce GTX 760,269,,31.99,350.98
+1104660,MO:Astray,2019,Intel Core i5-4210H CPU @ 2.9GHz,Nvida GTX 960,8,Intel Core i5-2400,49.99,GeForce GTX 960,249,,31.99,330.98
+1140260,Blade Warrior,2019,1.5 GHz,Any 100% OpenGL capable (Card or Onboard),0.3,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,,11.74,144.72
+1070980,Astro4x,2019,2.0Ghz,DirectX 11+ compatible card,1.0,Intel Pentium E2220,12.99,GeForce GTX 760,269,,11.74,293.73
+1057710,Funny Bunny: Adventures,2019,Intel Core i5,"NVidia 560 GTX, ATI Radeon HD 6870",4,Intel Core i5-2400,49.99,GeForce GTX 560 Ti,701.12,,11.77,762.88
+1060300,Homeless Simulator,2019,Dual Core 2.4 GHz,GeForce GTX 960,2,Intel Pentium E2220,12.99,GeForce GTX 960,249,,11.74,273.73
+1070800,Depths of Madness,2019,Intel Core i7,GeForce GTX 960,8,Intel Core i7-3770,98.69,GeForce GTX 960,249,,31.99,379.68
+1135400,Captain fly and sexy students,2019,Intel Core i3-650 (or equivalent),GeForce GTX 580 (or equivalent),8,Intel Core i3-7100T,29,GeForce GTX 580,,,31.99,60.99
+1060810,The Sphere of Abyss,2019,Intel® Core™ i5/AMD Phenom™ II X940 or better,NVIDIA® GeForce® GTX 560/ATI Radeon™ HD 6870 or better,4,Intel Core i5-2400,49.99,GeForce GTX 560 Ti,701.12,,11.77,762.88
+1056580,Family Hidden Secret - Hidden Objects Puzzle Adventure,2019,core i5,NVIDIA GeForce GTX 960 2GB,4.0,Intel Core i5-2400,49.99,GeForce GTX 960,249,,11.77,310.76
+1058500,Muscle Car Robot,2019,Intel i5,GTX 950,4,Intel Core i5-2400,49.99,GeForce GTX 950,199,,11.77,260.76
+1108740,Stick Em Up,2019,Ryzen 5 1600 or Intel Core i5,Gtx 1050 or AMD equivalent,8,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,31.99,345.97
+1123400,The Land of Exile,2019,Intel Core i7,NVIDIA® GeForce® GTX 960 or AMD R9 380x,8,Intel Core i7-3770,98.69,GeForce GTX 960,249,,31.99,379.68
+1081560,GOLD EXPRESS,2019,"Intel i5 2500(4 Core, 3.3HGz) or equivalent",NVIDIA GeForce GTX 1050 or equivalent,6,Intel Core i5-2500K,100,GeForce GTX 1050 Ti,263.99,,31.99,395.98
+858860,Tabletop Gods,2019,i5,GTX 960 (For Non VR) and GTX 980 (VR),8,Intel Core i5-2400,49.99,GeForce GTX 960,249,,31.99,330.98
+965610,Reiner Knizia Yellow & Yangtze,2019,Intel Core 2 Duo E6600 or AMD Athlon 64 X2 5000+ or better,Graphics card with DX11 or OpenGL 3.x capabilities,4,Intel Pentium Gold G5420,29,GeForce 9500 GT,119.99,,11.77,160.76
+1051470,Animal Friends Adventure,2019,"Intel Core i5-2300, 2.8 GHz / AMD FX-6300, 3.5GHz or AMD Ryzen™ 5 1400, 3.2 GHz",NVIDIA® GeForce™ GTX 780 or NVIDIA® GeForce™ GTX 1060-6GB / AMD® Radeon™ R9 290 or RX 570,8,Intel Core i5-2400,49.99,GeForce GTX 780,,,31.99,81.98
+977340,Skinny,2019,2.5 GHz Dual Core CPU,Geforce GTX 970/Radeon RX470 or better,4,Intel Pentium E5700,14.99,GeForce GTX 970,100,,11.77,126.76
+964920,Space Tycoon | 星际大亨,2019,Intel Core i5-4430 / AMD FX-6300 ++++,nVidia GeForce GTX 960 2GB / AMD Radeon R7 370 4GB ++++,8,Intel Core i5-2400,49.99,GeForce GTX 960,249,,31.99,330.98
+1048160,Skyward,2019,2.4 Ghz (Intel Core i5 / AMD Phenom II),GeForce 8000+ / Radeon HD 5000+,4,Intel Pentium E2220,12.99,GeForce GTX 980,389,,11.77,413.76
+1048410,Becoming a Dandelion Spore,2019,Dual Core 2.4 GHz,GeForce GTX 960,0.0,Intel Pentium E2220,12.99,GeForce GTX 960,249,,11.74,273.73
+1131830,Gunk,2019,Intel Core i9-9900K,Nvidia GeForce RTX 2080 Ti.,0.0,Intel Core i9-9900KF,329,GeForce RTX 2080 Ti,879,,11.74,1219.74
+1059090,The Underground Watcher/地下监察员,2019,2.4 Ghz+ Processor,512MB VRAM,2.0,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,,11.74,144.72
+987330,Street Outlaws: The List,2019,Intel Core i5-6600K / AMD Ryzen 5 1600,GeForce GTX 1050 ti / AMD Radeon RX 580,6,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,31.99,345.97
+1037970,I'm Hungry,2019,Intel i5-4590 or AMD Ryzen 5 1500X or greater,Nvidia GeForce GTX 970 or AMD Radeon 290 or greater,8,AMD Ryzen 5 5500,74.22,GeForce GTX 970,100,,31.99,206.21
+740550,Record of Agarest War Mariage,2019,3GHz Intel i3,DirectX 11.x or OpenGL 3.3 with video card with 1GB ram and support for v4 shader,8,Intel Pentium E5700,14.99,GeForce GTX 760,269,,31.99,315.98
+992950,Circle Rally Party,2019,Intel i5-7xxx 2.5Ghz or any equivalent,NVIDIA GTX 650 or AMD Radeon HD7770 or any equivalent,8,Intel Pentium E5700,14.99,GeForce GTX 650,,,31.99,46.98
+570820,Dusty Raging Fist,2019,Intel Core2Duo i5,2gb ram and above,8,Intel Core i5-2400,49.99,GeForce GTX 760,269,,31.99,350.98
+1134390,Voidlifted,2019,2 Ghz,Graphics card with DX10 (shader model 4.0) capabilities,1,Intel Pentium E2220,12.99,GeForce GTX 760,269,,11.74,293.73
+1065460,ReThink | Evolved 3,2019,AMD Ryzen 3 / Intel Core i3,AMD R9 290 / nvidia GTX 970,4,Intel Core i3-7100T,29,GeForce GTX 970,100,,11.77,140.77
+968480,Dimensum - Bizzarre Huntseeker,2019,Intel Core i5-9400F or AMD Ryzen 5 PRO 3600 or Later,NVIDIA GeForce GTX 780 Ti or AMD Radeon Pro 580X or Later,16,Intel Core i5-2400,49.99,GeForce GTX 780 Ti,,,43.83,93.82
+795960,Murder Diaries: Ankara,2019,Intel i7,NVIDIA GeForce GTX1050,16,Intel Core i7-3770,98.69,GeForce GTX 1050 Ti,263.99,,43.83,406.51
+728530,SD GUNDAM G GENERATION CROSS RAYS,2019,Intel Core i5 3470 or AMD FX-6300,NVIDIA GeForce GT 750 or Radeon HD 7790,4,Intel Core i5-2400,49.99,Radeon HD 7790,142.85,,11.77,204.61
+919220,Destiny or Fate,2019,2.0 Ghz,1GB Video Memory,8,Intel Pentium E2220,12.99,GeForce GT 630,,,31.99,44.98
+946380,TheMemory,2019,"Quad-core Intel or AMD processor, 3 GHz or faster",NVIDIA GeForce GTX 970 or AMD Radeon R9 290 series card of higher,4,Intel Pentium E5700,14.99,GeForce GTX 970,100,,11.77,126.76
+1142890,Heart in the Dark,2019,"Intel Core i7 9700K 3,6 GHz",GeForce RTX 3080-Grafikkarte,0.0,Intel Core i7-9700K,239.43,GeForce RTX 3080 10GB,779,,11.74,1030.17
+1190840,Boomer Remover,2019,i5-3570,GTX 960,8,Intel Core i5-3570K,128.99,GeForce GTX 960,249,,31.99,409.98
+1018810,Drumpfy Walls,2019,Intel i7,4GB+ Direct 9 GPU,4,Intel Core i7-3770,98.69,GeForce 9500 GT,119.99,,11.77,230.45
+1072170,Order Up VR,2019,"Intel i5-4590, AMD FX 8350 equivalent or better","Nvidia GeForce GTX 970, AMD Radeon R9 290 equivalent or better.",4,Intel Core i5-2400,49.99,GeForce GTX 970,100,,11.77,161.76
+1126550,I'm from area 51,2019,Intel® Core™ i5,2 GB DX9 Compliant,4,Intel Core i5-2400,49.99,GeForce 9500 GT,119.99,,11.77,181.75
+1095140,PrimeOrbial,2019,Processor Core: i5 2.8 Ghz,Nvidia GTX 660 or AMD Radeon HD 7870 equivalent DX11 GPU,0.0,Intel Pentium E5700,14.99,GeForce GTX 660,,,11.74,26.73
+1131570,DoSK,2019,Core i5,NVIDIA Geforce 2GB RAM,8,Intel Core i5-2400,49.99,GeForce GTX 760,269,,31.99,350.98
+1093120,Box Labyrinth,2019,64bit Intel compatible Quad Core CPU,DX11 based graphics card,8,Intel Xeon E3-1220 V6,25,GeForce GTX 460,154.87,,31.99,211.86
+1117380,Project Cappuccino,2019,Intel Core i5,NVIDIA GTX 660 / AMD 7850,4,Intel Core i5-2400,49.99,GeForce GTX 660,,,11.77,61.76
+375570,Goblin Quest: Escape!,2019,Dual-Core Intel i5 or equivalent,DX11-compatible with 2 GB memory,4,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,,11.77,179.63
+1093220,Eat this!,2019,Intel i5-4590 or AMD FX 8350 equivalent,Nvidia GeForce GTX 970 or AMD Radeon R9 290 equivalent,8,Intel Core i5-2400,49.99,GeForce GTX 970,100,,31.99,181.98
+1053660,Chaos Starter,2019,Dual Core 2.4 GHz,GeForce GTX 960,2,Intel Pentium E2220,12.99,GeForce GTX 960,249,,11.74,273.73
+1010410,Dragon Roller Coaster HD,2019,Intel i7-3770 equivalent or greater,NVIDIA® GeForce® GTX 980 equivalent or greater,2,Intel Core i7-3770,98.69,GeForce GTX 980,389,,11.74,499.43
+875310,LIBERATED,2020,AMD Ryzen 5 or Intel Core i5 (3.2 GHz or higher),"NVIDIA GeForce GTX 970, AMD Radeon RX 580 or equivalent with 4 GB of VRAM",8,Intel Xeon E3-1220 V6,25,GeForce GTX 970,100,,31.99,156.99
+1300580,Battle Baseball,2020,i5,gtx 1050,8,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,31.99,345.97
+1084640,Chicken Police - Paint it RED!,2020,Quad Core CPU - 3 GHZ,Nvidia GTX 760 / AMD R7 370,8,Intel Pentium E5700,14.99,GeForce GTX 760,269,,31.99,315.98
+1116580,Shady Part of Me,2020,AMD Athlon II X3 450 / Intel Core 2 Quad Q6600,"2 GB VRAM, AMD Radeon HD 7850 / Nvidia GeForce GTX 660",8,Intel Xeon E3-1220 V6,25,GeForce GTX 660,,,31.99,56.99
+1123230,HEXTERMINATE,2020,Intel(R) Core(TM) i5-2500 CPU @ 3.30GHz,NVIDIA GeForce GTX 2060,8,Intel Core i5-2500K,100,GeForce RTX 2060,309,,31.99,440.99
+1265360,3D Hentai Blackjack,2020,Processor 2.6 Ghz,Graphical Card with 1024 megabytes of video memory and support of DirectX 9.0,2.0,Intel Pentium E5700,14.99,GeForce 9500 GT,119.99,,11.74,146.72
+1299010,Overseer,2020,Intel 64-bit Quad Core,DX11 based graphics card,4,Intel Xeon E3-1220 V6,25,GeForce GTX 460,154.87,,11.77,191.64
+1420850,CyberTaxi,2020,Intel Core i5-7600 or AMD Ryzen 5 2600,NVIDIA GeForce GTX 1050 Ti 4GB or AMD Radeon R9 390,8,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,31.99,345.97
+1178790,Shiren the Wanderer: The Tower of Fortune and the Dice of Fate,2020,"Intel(R) Core(TM) i3-530 2.93 Ghz, or better",DirectX 11.0 compatible GPU with at least 2GB of VRAM,4,Intel Core i3-530,45,GeForce GTX 760,269,,11.77,325.77
+1275410,Only One Rectangle,2020,1 core 2000 MHz,512 MB RAM,2.0,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,,11.74,179.60
+1251750,Family Man: Prologue,2020,High-range Intel Core i5,Nvidia Geforce GTX 760/equivalent or higher,4,Intel Core i5-2400,49.99,GeForce GTX 760,269,,11.77,330.76
+1397470,Tsuro - The Game of The Path,2020,Quad Core 3GHz,Nvidia Geforce GTX 980 or equivalent,8,Intel Pentium E5700,14.99,GeForce GTX 980,389,,31.99,435.98
+466630,The Pedestrian,2020,Intel i5,NVIDIA Geforce GTX 660,8,Intel Core i5-2400,49.99,GeForce GTX 660,,,31.99,81.98
+1267960,FotoMuseo 3D,2020,2.0 GHz Quad Core,3 GB VRAM,2,Intel Pentium E2220,12.99,GeForce GTX 760,269,,11.74,293.73
+1130410,Cyber Hook,2020,Dual Core 2 Ghz CPU,Geforce GTX 970 or AMD Radeon R9 290,4,Intel Pentium E2220,12.99,GeForce GTX 970,100,,11.77,124.76
+529970,PositronX,2020,Intel Core i7 3.40 GHz or similar,NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 470,8,Intel Xeon E3-1220 V6,25,GeForce GTX 1050 Ti,263.99,,31.99,320.98
+795990,Rise - The Vieneo Province,2020,AMD Ryzen 5 or Intel Core i5,AMD Radeon RX 560 or nVidia GeForce 1050 Ti,4,Intel Core i5-2400,49.99,GeForce GTX 560 Ti,701.12,,11.77,762.88
+1345030,Bomber Games,2020,Intel Core i7 or equivalent,NVIDIA GTX 660 or AMD Radeon HD 7950,8,Intel Core i7-3770,98.69,GeForce GTX 660,,,31.99,130.68
+1255740,Karma Knight,2020,Intel i5,NVIDIA GeForce GTX 950,2,Intel Core i5-2400,49.99,GeForce GTX 950,199,,11.74,260.73
+1347390,Beaver Fun™ River Run - Steam Edition,2020,i3-8100 or equivalent,GTX 1050 or equivalent,8,Intel Core i3-8100,60.78,GeForce GTX 1050 Ti,263.99,,31.99,356.76
+1217930,VR Jetpack Game,2020,Intel i7,NVIDIA RTX 3060,16,Intel Core i7-3770,98.69,GeForce RTX 3060 12GB,256.98,,43.83,399.50
+1040370,Thigh Climbers,2020,Intel i7 or equivalent,NVIDIA GTX 960 or equivalent,8,Intel Core i7-3770,98.69,GeForce GTX 960,249,,31.99,379.68
+650740,Leap of Champions,2020,Intel-core i5-3470,GeForce GTX 960 or Radeon HD R7,8,Intel Core i5-3470,95.46,GeForce GTX 960,249,,31.99,376.45
+1356460,Commander '85 Prologue,2020,Core i3 / Ryzen 3,NVIDIA GTX 660 2GB VRAM or equivalent,4,Intel Core i3-7100T,29,GeForce GTX 660,,,11.77,40.77
+1037830,Rascal Fight | 捣蛋大作战,2020,I5,GTX1050,4,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,11.77,325.75
+1252250,Rebornia - MMORPG 2D,2020,i3 or Better,1 GB VRAM OpenGL: Version 2.1+ &amp; ARB Extensions,2,Intel Core i3-7100T,29,GeForce GT 630,,,11.74,40.74
+851850,DRAGON BALL Z: KAKAROT,2020,Intel Core i5-3470 or AMD Ryzen 3 1200,GeForce GTX 960 or Radeon R9 280X,8,Intel Core i5-2400,49.99,GeForce GTX 960,249,,31.99,330.98
+1300390,Sunset Shapes,2020,Quad-Core 3.0 Ghz,GPUs supporting OpenGL 3.3,4,Intel Pentium E5700,14.99,GeForce GTX 460,154.87,,11.77,181.63
+1339030,Final Hope: The Plot,2020,Intel Core i5 or equivalent,NVIDIA GeForce GTX 770 or AMD R9 280,4,Intel Core i5-2400,49.99,GeForce GTX 770,,,11.77,61.76
+891020,Handball 21,2020,Intel Core i5-4570 or AMD FX-8350,NVIDIA GeForce GTX 780 or AMD Radeon R9 290X,8,Intel Core i5-2400,49.99,GeForce GTX 780,,,31.99,81.98
+924740,Beyond Senses,2020,Quad Core or better,DirectX11 compatible Graphic Card,8,Intel Xeon E3-1220 V6,25,GeForce GTX 760,269,,31.99,325.99
+1273180,Glory Horse Racing,2020,Intel Core i5 / AMD FX serie 8000,NVIDIA GeForce GTX 770 2GB / AMD Radeon R9 serie 2GB,0.0,Intel Core i5-2400,49.99,GeForce GTX 770,,,11.74,61.73
+975150,Resolutiion,2020,2.0 GHz,OpenGL ES 3.0+ Compatible Card,4,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,,11.77,179.63
+1252020,Ahlman Mansion 2020,2020,Intel Core i5-2500K or AMD Ryzen 5 1400 or Higher,NVIDIA GeForce GTX 760 or AMD Radeon HD 7950 or Higher,6,Intel Core i5-2400,49.99,GeForce GTX 760,269,,31.99,350.98
+1251760,Colorful 3D II,2020,Intel Core i5 9600K,Nvidia GeForce GTX 1660Ti,8,Intel Core i5-9600K,166,GeForce GTX 1660 Ti,425,,31.99,622.99
+1363660,Emerald Lake,2020,Intel® Core™ i5,2 GB DX9 Compliant,4,Intel Core i5-2400,49.99,GeForce GTX 460,154.87,,11.77,216.63
+1600670,DawnWander,2021,Intel Core i5-8400 or AMD Ryzen 5,Nvidia GeForce GTX 1050ti 4gb,16,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,43.83,357.81
+1517870,StalakMiner,2021,Intel Core i3 8XXX Series / AMD Ryzen 5 1XXX Series,GeForce GTX 1660 / Radeon RX 590,8,Intel Core i3-7100T,29,GeForce GTX 1660,231.32,,31.99,292.31
+1100500,Last Contingency,2021,hex-core processor AMD[Ryzen 5 3600] Intel [Core i5-9600K],Nvidia gtx 1660 6gb OR AMD rx580 8gb,16,AMD Ryzen 5 5500,74.22,GeForce GTX 1660,231.32,,43.83,349.37
+1048530,Rise of Humanity,2021,3.0 GHz Intel Core i5,NVIDIA GeForce GTX960,16,Intel Pentium E5700,14.99,GeForce GTX 960,249,,43.83,307.82
+1584280,Steel Salvo,2021,Intel i5 4460 - AMD Ryzen R3 1200 or equivalent,NVIDIA Geforce GTX 970 - AMD Radeon R9 390,8,Intel Core i5-2400,49.99,GeForce GTX 970,100,,31.99,181.98
+1101420,Dragon Call,2021,Intel(R)Core i5 3.2GHz,GeForce GTX 960/Radeon HD 7900 or better,7.8,Intel Xeon E3-1220 V6,25,GeForce GTX 960,249,,31.99,305.99
+1762510,Cinnet:I,2021,Intel Core i7,"1.5GB VRAM, NVIDIA Geforce GTX 660 / ATI Radeon HD 7850",7.8,Intel Core i7-3770,98.69,GeForce GTX 660 Ti,239,,31.99,369.68
+1659910,Mystery of Camp Enigma 2: Point & Click Puzzle Adventure,2021,1.1 GHz Processor,Graphics card with DX10,2,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,,11.74,179.60
+1675070,SMETANKA,2021,Intel® Core™ i5 Serise or better,NVIDIA® GeForce® GTX 500 Series or AMD Radeon™ HD6000 Series (VRAM 1GB) or better,4,Intel Core i5-2400,49.99,GeForce GTX 550 Ti,,,11.77,61.76
+1590070,Project Hunter,2021,Intel i5-750 / AMD Athlon X4 740,Nvidia GTX1050,8,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,31.99,345.97
+1341200,DYNASTY WARRIORS 9 Empires,2021,Intel Core i7 3770 / AMD Ryzen 5 2600 or over,"NVIDIA GeForce GTX 1660 / AMD Radeon RX 5600 XT or over, VRAM 6GB or over",8,Intel Core i7-3770,98.69,GeForce GTX 1660 SUPER,339,,31.99,469.68
+990630,The Last Campfire,2021,Intel Core i5 2.8 GHz,NVIDIA GTX 1660/AMD RX 5600 XT,8,Intel Pentium E5700,14.99,GeForce GTX 1660 SUPER,339,,31.99,385.98
+1631930,The Insignia Project,2021,AMD Ryzen 5 1600,Nvidia GTX 1050,4,AMD Ryzen 5 1600 (12nm),99,GeForce GTX 1050 Ti,263.99,,11.77,374.76
+955300,ShotKill,2021,"Intel i5 2500Ghz , i7 2600, 2700 or better",NVidia Geforce GTX 960 or greater,6,Intel Core i3-10100F,100,GeForce GTX 960,249,,31.99,380.99
+1328510,Save Iron Globe,2021,3.2 GHz,1 GB VRAM,1,Intel Xeon E3-1220 V6,25,GeForce GT 630,,,11.74,36.74
+1630810,Silent Woods: the Cleansed,2021,intel core i7,NVIDIA GeForce GTX 960M,8,Intel Core i7-3770,98.69,GeForce GTX 960,249,,31.99,379.68
+471710,Rec Room,2021,Intel i7 or Ryzen 5 3600,GTX 980 or better,16,AMD Ryzen 5 5500,74.22,GeForce GTX 980,389,,43.83,507.05
+1385100,Insurmountable,2021,"Intel® Core™ i7-3770, AMD FX™-9590, or better","NVIDIA® GeForce® GTX 970 with 6GB VRAM, AMD Radeon™ RX 480 with 8GB VRAM, or better",8,Intel Core i7-3770,98.69,GeForce GTX 970,100,,31.99,230.68
+1276790,Ruined King: A League of Legends Story™,2021,"Intel Core i3-6100, AMD FX-8120","Geforce GTX 660Ti, Radeon HD 7950",8,Intel Core i3-7100T,29,GeForce GTX 660 Ti,239,,31.99,299.99
+1389550,Mind Scanners,2021,High-range Intel Core i5,Nvidia Geforce GTX 760/equivalent or higher,3,Intel Core i5-2400,49.99,GeForce GTX 760,269,,11.77,330.76
+1655090,Thirty Minute Nightmare,2021,Intel(R) Core(TM) i7 - 8750H CPU @ 2.20 GHz 2.21 GHz,NVIDIA GeForce RTX 2070 with Max-Q Design,16,Intel Core i7-3770,98.69,GeForce RTX 2070 SUPER,689,,43.83,831.52
+1603780,Pincushion,2021,intel i5,GTX 1050,2,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,11.74,325.72
+1748740,Evolution: Moon Warfare,2021,i9 or higher,2060ti or higher,4,Intel Core i9-7920X,170.66,GeForce RTX 2060 SUPER,575,,11.77,757.43
+1780900,Knockball pool,2021,1.6 Ghz,DirectX8 compatible,1,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,,11.74,179.60
+1779650,Us Against Aliens,2021,Intel(R) Celeron(R) CPU G530 @2.40 GHz,GTX 1050,8,Intel Pentium E2220,12.99,GeForce GTX 1050 Ti,263.99,,31.99,308.97
+1585250,The Space Between,2021,AMD Phenom II X4 965 / Intel Core i5-3470 3.2GHz or higher,256 MB video card or higher,2,Intel Core i5-2400,49.99,GeForce GTX 460,154.87,,11.74,216.60
+1384910,Shinobi Breaker,2021,Core i7 6700,NVDIA RTX 2070,16,Intel Core i7-6700,123,GeForce RTX 2070 SUPER,689,,43.83,855.83
+1504670,VR Plane Crash,2021,Intel Core i5-4590 / AMD FX 8350 or higher,NVIDIA GTX 1050 or higher,8,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,31.99,345.97
+1394500,Frontline: World War II,2021,Dual-Core Intel i5 CPU @ 2GHz+,Intel 4xxx Series w/ 512MB VRAM or better,2.0,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,,11.74,179.60
+1627180,Operation Insanity,2021,Intel Core i7-6700K or AMD equivalent,Nvidia GTX 2060 or AMD equivalent,0.0,Intel Core i7-3770,98.69,GeForce RTX 2060,309,,11.74,419.43
+1758600,ATRIA-1,2021,Core i7 / AMD Ryzen 7,RTX 3060,8,Intel Core i7-3770,98.69,GeForce RTX 3060 12GB,256.98,,31.99,387.66
+1336600,Cabin Fever,2021,Modern Intel/AMD CPU 2GHz+,Graphics card with DX9 (shader model 2.0) capabilities. Anything made since 2004 should work.,4,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,,11.77,144.75
+1127970,Retro Machina,2021,Intel Core i5 or AMD Ryzen 3,Nvidia GTX 1050 or AMD RX 560,8,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,31.99,345.97
+1624780,Mosaic Hearts Preview (Chap 00 - 01),2021,Intel i7 9750H CPU 2.60GHz,NVIDIA GeForce GTX 1650,16,Intel Core i7-3770,98.69,GeForce GTX 1650 SUPER,419,,43.83,561.52
+1140790,Kung Fu Jesus,2021,3.5Ghz,nVidia GTX 1050Ti or equivalent,16,Intel Xeon E3-1220 V6,25,GeForce GTX 1050 Ti,263.99,,43.83,332.82
+1755920,Infinite Lagrange,2021,Intel Core i5 above,512MB Video Card (DirectX 10 capabilities),4.0,Intel Core i5-2400,49.99,GeForce GTX 460,154.87,,11.77,216.63
+1341620,ANCIENT EVIL,2021,Dual Core 3.0 Ghz,NVIDIA GeForce GTX 960 or amd Radeon HD 8000 series,2,Intel Pentium E5700,14.99,GeForce GTX 960,249,,11.74,275.73
+1686050,Betrayer: Curse of the Spine - Prologue,2021,Intel i7,Intel HD Graphics or AMD Radeon HD Graphics (Discrete): Nvidia GeForce GTX 760 (or greater) or AMD Radeon HD 7600 (or greater),4,Intel Core i7-3770,98.69,GeForce GTX 760,269,,11.77,379.46
+1591730,Ultreïa: Prologue,2021,i7-9700 @ 3.00GHz (or faster),NVIDIA GeForce GTX 1050 (or newer),8,Intel Core i7-9700K,239.43,GeForce GTX 1050 Ti,263.99,,31.99,535.41
+1365590,Timewalk Tower Defense,2021,Intel i7 or Equivalent,Nvidia 1050 TI or Equivalent,0.0,Intel Core i7-3770,98.69,GeForce GTX 1050 Ti,263.99,,11.74,374.42
+1630800,Crystal Sequence,2021,2 Ghz Dual Core,Graphics card supporting DirectX 9.0c,1,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,,11.74,144.72
+1494370,Insights - Maniac Vortex,2021,2 GHz Dual Core CPU,"ATI Radeon HD 4500 Series, Geforce 9400 GT or higher",2,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,,11.74,144.72
+1341710,Nightmare Zone,2021,Intel(R) Core(TM) i5-9600k,NVIDIA GeForce GTX 1650,16,Intel Core i5-9600K,166,GeForce GTX 1650 SUPER,419,,43.83,628.83
+1523370,A.D. 2047,2021,Intel Core i7 6700K or over,"NVIDIA GeForce RTX 2060 SUPER or Over, VRAM 6GB or over",16,Intel Core i7-6700,123,GeForce RTX 2060 SUPER,575,,43.83,741.83
+1420980,Epidemic,2021,i5 -4460,gtx660,8,Intel Core i5-4460,68.56,GeForce GTX 660,,,31.99,100.55
+1456810,Don´t Spill,2021,Intel Core i5-650 / AMD A10-5800k,NVIDIA GeForce GTX 650 / Radeon HD 7510,8,Intel Core i5-2400,49.99,GeForce GTX 650,,,31.99,81.98
+1794920,Pool Adventure,2021,Intel Core i7 or equivalent,NVIDIA GeForce GTX 770 or AMD R9 280,8,Intel Core i7-3770,98.69,GeForce GTX 770,,,31.99,130.68
+1625450,Muck,2021,i5,GeForce GTX 660,8,Intel Core i5-2400,49.99,GeForce GTX 660,,,31.99,81.98
+2050680,Warbox Sandbox,2022,Intel i5-6600 / AMD Ryzen 5 1400,GTX 1660 / RX 580,16,AMD Ryzen 5 5500,74.22,GeForce GTX 1660,231.32,,43.83,349.37
+1522080,Jitsu Squad,2022,Intel i5+,NVIDIA GTX 960 / Radeon HD 5750 or better,16,Intel Core i5-2400,49.99,GeForce GTX 960,249,,43.83,342.82
+1942490,Prison of the mind,2022,Intel Core i3-10 Gen,GTX 1050,8,Intel Core i3-7100T,29,GeForce GTX 1050 Ti,263.99,,31.99,324.98
+1797590,Last Space Guardian,2022,Intel Core i3,Geforce Gtx 1030,8,Intel Core i3-7100T,29,GeForce GT 1030 DDR4,77.98,,31.99,138.97
+1928660,SNOT,2022,Quad-Core CPU @ 3.4 GHz,Nvidia GTX 660 or equivalent,8,Intel Xeon E3-1220 V6,25,GeForce GTX 660,,,31.99,56.99
+1927080,寂静破碎,2022,Intel CORE i7 9th Gen,NVIDIA GeForce RTX 2070,16,Intel Core i7-3770,98.69,GeForce RTX 2070 SUPER,689,,43.83,831.52
+1976240,Dreams of Pain,2022,AMD Ryzen 7 5800X (or Intel equivalent),RTX 3060,16,Intel Pentium E5700,14.99,GeForce RTX 3060 12GB,256.98,,43.83,315.80
+1927820,Alakenisland,2022,8 Core 4 GHz,10 TFLOPS FP32 8 GB VRAM (RTX 3050 / RX 5700 XT),16,AMD FX-4350,55.05,GeForce RTX 3050 8GB,219.99,,43.83,318.87
+1888620,Save The Bear Cubs,2022,Intel Core i5 or equivalent,NVIDIA GeForce GTX 770 or AMD R9 280,4,Intel Core i5-2400,49.99,GeForce GTX 770,,,11.77,61.76
+1928900,Rat Royal,2022,Intel Core i5-11400H (or AMD equivalent),NVIDIA GTX 1660 Ti (or AMD equivalent),16,Intel Core i5-2400,49.99,GeForce GTX 1660 Ti,425,,43.83,518.82
+1751850,Ghost Terminator,2022,Intel or AMD 3.2 GHz +,GeForce RTX 2060 (or equivalent),16,Intel Xeon E3-1220 V6,25,GeForce RTX 2060,309,,43.83,377.83
+1370390,Offroad Horizons: Arcade Rock Crawling,2022,"Quad-core Intel or AMD, 2.5 GHz or faster","GeForce GTX 1660 or Better, AMD Equivalent",6,Intel Pentium E5700,14.99,GeForce GTX 1660,231.32,,31.99,278.30
+1394480,Rocco's Island: Ring to End the Pain,2022,AMD FX-8350 / AMD Ryzen 5 1600X or Intel(R) Core(TM) i5-4670,AMD Radeon HD 7850 or NVIDIA GeForce GTX 660,8,AMD Ryzen 5 5500,74.22,GeForce GTX 660,,,31.99,106.21
+2004290,Instant War,2022,Intel Core i5 or AMD Equivalent,"2GB Video Memory, OpenGL 3.1+ Support",4,Intel Core i5-2400,49.99,GeForce GTX 760,269,,11.77,330.76
+1890610,Headpunk: The Comic-Style Battle Chaos,2022,Intel Core i5,Nvidia Geforce GTX 1050 Ti,8,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,31.99,345.97
+1895410,Desktop Mars,2022,Intel® Core™ i5-6600K,GeForce GTX 1050 ti,8,Intel Core i5-6600K,89.99,GeForce GTX 1050 Ti,263.99,,31.99,385.97
+1984110,Goetia 2,2022,"Intel core I5-4440, AMD FX 6300","Nvidia GeForce GT 740, AMD Radeon R7 250",8,Intel Core i5-2400,49.99,GeForce GT 740,147,,31.99,228.98
+1624600,Realms VR,2022,Intel i5-4590 / AMD Ryzen 5 or Greater,"NVIDIA GTX 970 , AMD R9 290 or Greater.",8,Intel Core i5-2400,49.99,GeForce GTX 970,100,,31.99,181.98
+2057860,Steam Ocean,2022,英特尔酷睿 i7/ AMD 5600X 6-Core Processor,NVIDIA GeForce RTX 3080 Ti,16,Intel Xeon E5-2620,36.75,GeForce RTX 3080 Ti,949.99,,43.83,1030.57
+2236480,僵尸（THE JIANG SHI）,2022,Intel i7 7代,NVIDIA GeForce RTX 2070,16,Intel Core i7-3770,98.69,GeForce RTX 2070 SUPER,689,,43.83,831.52
+1972400,Package Rush,2022,Dual Core 3.4 GHz,NVIDIA GeForce GTX 960,4,Intel Xeon E3-1220 V6,25,GeForce GTX 960,249,,11.77,285.77
+1620600,Master of Puppets,2022,Quad-core 64-bit CPU @ 2.3GHz,GeForce GTX 1650,8,Intel Pentium E2220,12.99,GeForce GTX 1650 SUPER,419,,31.99,463.98
+2149070,Cosplay Collection,2022,intel i5,RTX 3060ti,12,Intel Core i5-2400,49.99,GeForce RTX 3060 Ti,489.09,,59.99,599.07
+1748050,A Sinful Camp,2022,1.2 GHz,DirectX 9 compatible graphics card,8,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,,31.99,164.97
+1131240,Dungeons of Edera,2022,AMD Ryzen 7 2700 / Intel Core i5-9500F,Radeon RX 5700 XT / Geforce RTX 2060 (8GB),16,Intel Core i5-2400,49.99,GeForce RTX 2060 SUPER,575,,43.83,668.82
+2057820,Desstroke,2022,AMD Ryzen 5 2600 / Intel Core i5-10400,AMD Radeon RX 580 / NVIDIA GeForce GTX 970,0.0,Intel Core i5-2400,49.99,GeForce GTX 970,100,,11.74,161.73
+1893050,DOOM TOMB,2022,AMD Ryzen 7 3700X 8-Core Processor,NVIDIA GeForce GTX 660,8,AMD Ryzen 7 3700X,142.94,GeForce GTX 660,,,31.99,174.93
+1196300,RTX Sweeper,2022,Ryzen 5 5600G,RTX 3070,8,AMD Ryzen 5 5600,125.61,GeForce RTX 3070,698,,31.99,855.60
+1949960,Super Kiwi 64,2022,Pentium(R) Dual-Core CPU T4200 2.00GHz,NVIDIA GeForce GTX 960,1,Intel Pentium E2220,12.99,GeForce GTX 960,249,,11.74,273.73
+1943810,Pitchfork Kingdom,2022,Intel i5-650 / AMD A10-5800K,Nvidia GeForce GTX 650 / Radeon HD 7510,4,Intel Core i5-2400,49.99,GeForce GTX 650,,,11.77,61.76
+1883530,SnackHunter,2022,2.33 GHz Quad Core or Greater,GeForce 600+ / Radeon 6000+,8,Intel Pentium E2220,12.99,GeForce GTX 660,,,31.99,44.98
+1972360,Cryptr,2022,Intel Core i7-10700 2.90 GHz,GeForce GTX 2060,16,Intel Core i7-10700KF,245,GeForce RTX 2060,309,,43.83,597.83
+1945910,maze to the old castle,2022,ryzen 3/intel i5,Nvidia GTX 970 / AMD Radeon RX 480 2gb,12,Intel Core i5-2400,49.99,GeForce GTX 970,100,,59.99,209.98
+1676910,Onde,2022,Intel Core i5 or equivalent,NVIDIA GTX 1050 graphics card or better DirectX11 compatible graphics card,8,Intel Core i5-2400,49.99,GeForce GTX 760,269,,31.99,350.98
+2199380,Laruaville 13 Match 3 Puzzle,2022,1.6 Ghz,DirectX8 compatible,4,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,,11.77,179.63
+2057720,Battle of Tanks,2022,intel i5-2500,GTX 960,2,Intel Core i5-2500K,100,GeForce GTX 960,249,,11.74,360.74
+993110,Skinwalker Hunt,2022,Intel Core i5-2500k,NVIDIA NVIDIA GTX 980 (4GB) or Radeon RX 590,8,Intel Core i5-2500K,100,GeForce GTX 980,389,,31.99,520.99
+1590910,Forgive Me Father,2022,"Intel Core i5, AMD Ryzen or equivalent",NVIDIA GeForce GTX 1050ti,16,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,43.83,357.81
+1414650,EDENGATE: The Edge of Life,2022,Intel Core I7 (3.6Ghz) / AMD Ryzen 7 (3.6Ghz),NVIDIA Geforce GTX 1660 or AMD Radeon RX 5500XT,8,Intel Pentium Gold G5420,29,GeForce GTX 1660 SUPER,339,,31.99,399.99
+898890,Endling - Extinction is Forever,2022,Intel i7 / AMD Ryzen 7,GTX 1070 4GB / Radeon RX 5700-XT 4GB or better,8,Intel Core i7-3770,98.69,GeForce GTX 1070,469,,31.99,599.68
+1380690,MP5,2022,Intel Core i5-9400F,GeForce GTX 1660,16,Intel Core i5-9400F,93,GeForce GTX 1660,231.32,,43.83,368.15
+1600570,Parallelia,2022,Intel Core i7-4770 @ 3.4 GHz or AMD Ryzen 5 1600 @ 3.2 GHz or equivalent,NVIDIA GeForce GTX 970 or AMD R9 290X (4GB VRAM with Shader Model 5.0 or better),16,Intel Core i7-3770,98.69,GeForce GTX 970,100,,43.83,242.52
+1771360,Gerda: A Flame in Winter,2022,Intel Core i5-3470 (4 * 3200) or equivalent,GeForce GTX 1050 (2048 VRAM) or equivalent,16,Intel Core i5-3470,95.46,GeForce GTX 1050 Ti,263.99,,43.83,403.28
+2177610,Reality Noclip: The Backrooms,2022,Quad Core (3.0 GHZ),Dedicated graphics card with 1024MB VRAM,2,Intel Pentium E5700,14.99,GeForce GTX 660,,,11.74,26.73
+1912380,Soccer Story,2022,High-range Intel Core i5,Nvidia Geforce GTX 760/equivalent or higher,0.5,Intel Core i5-2400,49.99,GeForce GTX 760,269,,11.74,330.73
+1382980,Fech The Ferret,2022,Intel Core i5 9600 / Ryzen 5 1600,Nvidia GTX 1050 / Nvidia GTX 660 Ti / AMD Radeon HD 7790,8,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,31.99,345.97
+1647770,Ankora: Lost Days,2022,Intel Core i5,NVIDIA GeForce GTX 660 / AMD Radeon HD 7850,4,Intel Core i5-2400,49.99,GeForce GTX 660,,,11.77,61.76
+1797880,Lost Light,2022,i3-8100,GTX 1650,8,Intel Core i3-8100,60.78,GeForce GTX 1650 SUPER,419,,31.99,511.77
+1379870,Tribal Hunter,2022,Quad-Core Processor 3.0 Ghz,2 GB Video Memory,6,Intel Pentium E5700,14.99,GeForce GTX 760,269,,31.99,315.98
+680240,Alien Life Lab,2022,Intel i3,GeForce GTX 660,6,Intel Core i3-7100T,29,GeForce GTX 660,,,31.99,60.99
+1497290,Personal Rocket,2022,1 GHz,DirectX compatible card,1,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,,11.74,179.60
+2077180,SCP: Daybreak,2022,Intel Core i7 or equivalent,NVIDIA GeForce GTX 1650 / RTX 2060 SUPER or higher.,16,Intel Core i7-3770,98.69,GeForce GTX 1650 SUPER,419,,43.83,561.52
+1774380,Cine Tracer 2,2023,"Quad-core Intel or AMD, 2.5 GHz",DirectX 11 or 12 compatible graphics card,32,Intel Pentium E5700,14.99,GeForce GTX 760,269,,125.99,409.98
+1122340,Chef Life: A Restaurant Simulator,2023,Intel Core i5-2400 or AMD FX-8350,"NVIDIA GeForce GTX 760, 2 GB or AMD Radeon HD 7870, 2 GB",6,Intel Core i5-2400,49.99,GeForce GTX 760,269,,31.99,350.98
+1912140,The Dreamland,2023,INTEL CORE i7-13700K,NVIDIA GEFORCE RTX 3080,64,Intel Core i7-13700F,255,GeForce RTX 3080 10GB,779,,149.99,1183.99
+1740130,Loco-Sort,2023,AMD Ryzen 7 5800X,NVIDIA GeForce RTX 3070,8,AMD Ryzen 7 5800XT,140,GeForce RTX 3070,698,,31.99,869.99
+1356810,Hexarchy,2023,Intel i5 / AMD Ryzen 3 Pro 2200G or higher,Nvidia GTX 970 or AMD R9 390 or higher,8,Intel Core i5-2400,49.99,GeForce GTX 970,100,,31.99,181.98
+2152810,Forge Industry,2023,Intel Core i5-4460,GTX 960,8,Intel Core i5-4460,68.56,GeForce GTX 960,249,,31.99,349.55
+1912130,SNWBRD: Freestyle Snowboarding,2023,Octa Core processor &gt; 3.0GHz,"NVIDIA® GeForce™ GTX 2070, AMD® Radeon™ 5700XT",16,Intel Pentium E5700,14.99,GeForce RTX 2070 SUPER,738,,43.83,796.82
+2120790,Ringborn,2023,AMD Ryzen 7 3600 or Intel i7-9600,Radeon RX 5600 XT or Nvidia RTX 2060,16,Intel Pentium E5700,14.99,GeForce RTX 2060 SUPER,575,,43.83,633.82
+1756440,Rarity Chase,2023,Intel core i5 5200u 2.7 Ghz or better,NVIDIA GeForce GTX 960 4 GB VRAM or similar,8,Intel Core i5-2400,49.99,GeForce GTX 960,249,,31.99,330.98
+1772050,Souls of White Star,2023,Intel i5-10600K,NVIDIA GeForce RTX 2080,16,Intel Core i5-10600K,174.99,GeForce RTX 2080,735,,43.83,953.82
+2228390,Fairy Fencer F: Refrain Chord,2023,Intel CPU Core i7 3770 or above,GeForce GTX 970 or AMD RX 560 2GB equivalent,8,Intel Core i7-3770,98.69,GeForce GTX 970,100,,31.99,230.68
+1928420,Farlight 84,2023,"Intel Core i5-6500, AMD Ryzen 5 1500x or Equivalent","NVIDIA GeForce® GTX 1060 5G, AMD RX5500XT, Intel Arc A580 or Equivalent",16,Intel Core i5-2400,49.99,GeForce GTX 1060 6GB,445,,43.83,538.82
+2004640,Svarog's Dream,2023,Intel Core i7-12700 / AMD Ryzen 7 5800,GeForce RTX 3070,16,Intel Core i7-3770,98.69,GeForce RTX 3070,698,,43.83,840.52
+1985040,无常,2023,Intel(R) Core(TM) i5-10600K 或同等cpu,Nvidia GeForce RTX 2060,16,Intel Core i5-10600K,174.99,GeForce RTX 2060,309,,43.83,527.82
+2073850,THE FINALS,2023,Intel Core i5-9600K or AMD Ryzen 5 3600 processor,NVIDIA GeForce RTX 2070 or AMD Radeon RX 5700 XT,16,Intel Core i5-2400,49.99,GeForce RTX 2070 SUPER,738,,43.83,831.82
+1465560,Against All Odds,2023,Intel Core i5 or AMD equivalent,NVIDIA GTX 660 or AMD Radeon HD 7950,6,Intel Core i5-2400,49.99,GeForce GTX 660,,,31.99,81.98
+2001340,Fuga: Melodies of Steel 2,2023,Intel Core i3-3220 / AMD A8-7650K,GeForce GTX 760 (2GB) / Radeon R7 260X (2GB),8,Intel Core i3-7100T,29,GeForce GTX 760,269,,31.99,329.99
+1677280,Company of Heroes 3,2023,Intel i7 8th-gen or AMD Ryzen desktop processor with 8 cores @ 3GHz or equivalent performance,"NVIDIA GeForce GTX 1660, AMD Radeon RX 5600, or equivalent performance",16,Intel Pentium E5700,14.99,GeForce GTX 1660,231.32,,43.83,290.14
+1478970,AI Olympius,2023,4 core / 8 threads | Intel Core i7-7700 | Ryzen 5 1400,8GB VRAM | RTX2070 | RX 6700 XT,8,Intel Core i7-3770,98.69,GeForce RTX 2070 SUPER,738,,31.99,868.68
+1165530,Offroad Truck Simulator: Heavy Duty Challenge®,2023,"Intel core i7 3,4 GHz gen 5+ or equivalent",NVidia RTX 2080 or equivalent,16,AMD FX-4350,55.05,GeForce RTX 2080,735,,43.83,833.88
+1984790,Drago Noka,2023,Ryzen 3 3100,GTX 1650,16,AMD Ryzen 3 3100,96.43,GeForce GTX 1650 SUPER,419,,43.83,559.26
+698660,UKNON Jones & Guynelk - Awesome!,2023,AMD Ryzen 7 5800H with Radeon Graphics,NVIDIA GeForce RTX 3060,8,AMD Ryzen 7 5800XT,140,GeForce RTX 3060 12GB,256.98,,31.99,428.97
+2251930,CGI™: The Game,2023,I7-8th gen,Nvidia GTX 1050,8,Intel Core i7-3770,98.69,GeForce GTX 1050 Ti,263.99,,31.99,394.67
+2141520,Survivor Mercs,2023,3 GHz quad-core,"GeForce GTX 1660 or higher, Radeon RX 5500 RT or higher",16,Intel Pentium E5700,14.99,GeForce GTX 1660,231.32,,43.83,290.14
+2142400,The Riese Project - Prologue,2023,Intel Core i9-9900KF / AMD Ryzen 7 7800X3D,NVIDIA GeForce RTX 4070 or AMD Radeon RX 7900 XT (12 GB VRAM or higher) DirectX: Version 12,16,Intel Core i9-7920X,170.66,GeForce RTX 4070,579,,43.83,793.49
+2251670,At the dream end,2023,Dual Core 1.6 GHz,OpenGL compatible 256MB VRAM,0.0,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,,11.74,179.60
+2435330,Zombiepede,2023,Intel Core i5 or AMD Ryzen 5,NVIDIA GeForce GTX 970 orAMD Radeon R9 390 or higher,8,Intel Core i5-2400,49.99,GeForce GTX 970,100,,31.99,181.98
+2613960,FLEX Disc Golf,2023,Six-Core Intel or AMD 3.4GHz or superior,NVIDIA GeForce RTX 2080 or AMD Radeon RX 6650,0.0,Intel Xeon E3-1220 V6,25,GeForce RTX 2080,735,,11.74,771.74
+2427590,Ma3,2023,Intel Core i5 3470 @ 3.2GHz (4 CPUs) / AMD X8 FX-8350 @ 4GHz (8 CPUs),NVIDIA GTX 660 2GB / AMD HD 7870 2GB.,8,Intel Core i5-2400,49.99,GeForce GTX 660,,,31.99,81.98
+2349820,Hero's Land,2023,Intel i5 7代 or AMD FX 6300,NVIDIA GeForce GTX 1050,4,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,11.77,325.75
+2681110,Gunner Girl 女枪手,2023,Intel i5,GTX1650,4.9,Intel Core i5-2400,49.99,GeForce GTX 1650 SUPER,419,,11.77,480.76
+2725240,FADE^2,2023,Intel Core i3-2120 | AMD FX-4350,Nvidia GTS 450 | AMD Radeon HD 5750,4,Intel Core i3-7100T,29,Radeon HD 5450,64.95,,11.77,105.72
+1636150,Heavyarms Assemble: WWII,2023,i5-9400F 2.9GHz,"Discrete graphics, GTX 1660 6GB",16,Intel Core i5-9400F,93,GeForce GTX 1660,231.32,,43.83,368.15
+2363290,Fireworks Frenzy,2023,Intel i7 or AMD equivalent (AMD FX 9500+ Series),NVIDIA GeForce GTX 970 or AMD R9 290X or better,16,Intel Core i7-3770,98.69,GeForce GTX 970,100,,43.83,242.52
+2168380,Super-Spatial,2023,AMD Ryzen 5 2600,NVIDIA GTX 1050,8,AMD Ryzen 5 2600X,115,GeForce GTX 1050 Ti,263.99,,31.99,410.98
+2198560,Mancala,2023,1.6 GHz,Graphics card supporting DirectX,8,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,,31.99,199.85
+1686430,Monster Maker,2023,Intel Core i5 7代或同级别以上处理器,NVIDIA GeForce GTX 1660或同级别以上显卡,16,Intel Core i5-2400,49.99,GeForce GTX 1660,231.32,,43.83,325.14
+2064810,CityDriver,2023,"AMD Ryzen 7 5800X or Intel Core i7-12700 (8+4 cores, 16 threads)","NVIDIA GeForce RTX 3080 or AMD Radeon RX 7900 XT, with 12 GB VRAM or better",32,Intel Core i7-3770,98.69,GeForce RTX 3080 10GB,779,,125.99,1003.68
+2346730,Day at the Races,2023,Intel Core i5 or AMD equivalent,Nvidia Geforce GTX 960 or AMD equivalent,8,Intel Core i5-2400,49.99,GeForce GTX 960,249,,31.99,330.98
+1111080,Ghost Feed,2023,i5 or above,Nvidia GTX 760 or above,8,Intel Core i5-2400,49.99,GeForce GTX 760,269,,31.99,350.98
+2414320,Veil of Darkness,2023,1.8 GHz,3D graphics card compatible with DirectX 9,0.5,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,,11.74,144.72
+2426250,Halls of Watershot,2023,2.7 GHz Intel Core i5 or equivalent,NVIDIA GeForce GTX 650,8,Intel Pentium E5700,14.99,GeForce GTX 650,,,31.99,46.98
+2235790,Howl of Iron,2023,Intel Core i7,Nvidia Geforce RTX 2080,16,Intel Core i7-3770,98.69,GeForce RTX 2080,735,,43.83,877.52
+2283240,Ultimate Flight Simulator Pro,2023,"Intel Core i7-3770, 3.4 GHz",GeForce GTX 970 or GeForce GTX 1060 / Radeon R9 290X or Radeon RX 480,4,Intel Core i7-3770,98.69,GeForce GTX 970,100,,11.77,210.46
+2434720,Maces and Dices,2023,3 GHz Quad Core,Nvidia GTX 960,4,Intel Pentium E5700,14.99,GeForce GTX 960,249,,11.77,275.76
+1046830,Infinite Waves TD,2023,AMD FX-8370E / Intel Core i5-7500,GeForce GTX 960 / Radeon RX 570,8,Intel Core i5-2400,49.99,GeForce GTX 960,249,,31.99,330.98
+1348690,Oaken,2023,3.3 Ghz to 3.69 Ghz,Geforce GTX 960,4,Intel Xeon E3-1220 V6,25,GeForce GTX 960,249,,11.77,285.77
+2646520,World Leaders,2023,Intel/AMD Core (2.0GHz and above),DirectX 11,8,Intel Pentium E2220,12.99,GeForce GTX 760,269,,31.99,313.98
+2224260,Bloody Heaven,2023,Intel i7 12700K,GeForce RTX 3060,16,Intel Core i7-12700KF,174.99,GeForce RTX 3060 12GB,256.98,,43.83,475.80
+2056700,KAGITORI -BIRD IN THE CAGE HIDING THE KEY-,2023,Intel® Core ™ i7 or more,OpenGL 3.3 or more,8,Intel Core i7-3770,98.69,GeForce GTX 460,154.87,,31.99,285.55
+2060870,Invincible Presents: Atom Eve,2023,3.5 GHz Intel Core i5 or AMD FX,nVidia GTS 960 or AMD Radeon HD 7990 with 4 GB RAM,8,Intel Xeon E3-1220 V6,25,GeForce GTX 960,249,,31.99,305.99
+2278640,Love on Leave,2023,Intel Core i5-8500 over,NVIDIA GeForce GTX 1050 over,8,Intel Core i5-8500T,125,GeForce GTX 1050 Ti,263.99,,31.99,420.98
+2302840,Compass of Destiny: Istanbul,2023,Intel Core™ i7-5930K or AMD FX-9590,NVIDIA® GeForce® GTX 3060 or AMD RX 6600,12,Intel Core i7-3770,98.69,GeForce RTX 3060 12GB,256.98,,59.99,415.66
+2274870,Garden of God,2023,2.0 GHz Core 2 Duo,OpenGL 2.0 or DirectX 9.0c compatible,2,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,,11.74,144.72
+1672500,GUNDAM BREAKER 4,2024,Intel Core i5-6400 / AMD Ryzen 3 1200,Nvidia GeForce GTX 970 / AMD Radeon RX 580 / Intel Arc A770,8,Intel Core i5-2400,49.99,GeForce GTX 970,100,,31.99,181.98
+1674530,Feudal Baron: King's Land,2024,"Intel i7-8700K, AMD Ryzen 5 3700X",GTX 1660 Ti 6GB,16,AMD Ryzen 5 5500,74.22,GeForce GTX 1660 Ti,425,,43.83,543.05
+1623730,Palworld,2024,i9-9900K 3.6 GHz 8 Core,GeForce RTX 2070,32,Intel Core i9-9900KF,329,GeForce RTX 2070 SUPER,689,,125.99,1143.99
+1978150,Kamaeru: A Frog Refuge,2024,"Intel Core i5-4670K (4 * 3400), AMD FX-8350 (4 * 4000), or equivalent",GeForce GTX 660 (2048 MB) or Radeon HD 7770 (1024 MB),8,Intel Core i5-2400,49.99,GeForce GTX 660,,,31.99,81.98
+2225680,Sand in a Box,2024,3 GHz Quad core CPU,"Geforce GTX 960, Radeon R7 265 or better",8,Intel Pentium E5700,14.99,GeForce GTX 960,249,,31.99,295.98
+1477940,Unknown 9: Awakening,2024,6 cores / 12 threads / 3.4 Ghz Base clock speed,8 GB VRAM / AMD RX 5700 XT,16,Intel Xeon E3-1220 V6,25,Radeon RX 5700 XT,595,,43.83,663.83
+2171880,Albatroz,2024,Intel(R) Core(TM) i5-4690K or AMD Ryzen 5 1600,NVIDIA GeForce RTX 2060 or AMD RX 5700 XT,8,AMD Ryzen 5 5500,74.22,GeForce RTX 2060 SUPER,575,,31.99,681.21
+2070750,NeonCyber.exe,2024,Intel(R) Core(TM) i5-9600K,NVIDIA GeForce GTX 1050Ti,8,Intel Core i5-9600K,166,GeForce GTX 1050 Ti,263.99,,31.99,461.98
+2088280,Lazaret,2024,3.0 GHz,GeForce GTX 1660 Ti,8,Intel Pentium E5700,14.99,GeForce GTX 1660 Ti,425,,31.99,471.98
+992910,The Black Masses,2024,Intel i5-6600 @ 3.3Ghz (6th Generation) or AMD Ryzen 5 1400,NVIDIA GeForce GTX 970 4 GB or AMD Radeon R9 390X,12,AMD Ryzen 5 5500,74.22,GeForce GTX 970,100,,59.99,234.21
+2619110,77th: The Game,2024,Intel Core i5-8400 | AMD Ryzen 5 2600,Nvidia GeForce RTX 2070 | AMD Radeon RX 5700,8,Intel Core i5-2400,49.99,GeForce RTX 2070 SUPER,689,,31.99,770.98
+2772320,Animal parkour,2024,Dual Core 3.0+ GHz or higher,Compatible with DirectX 9,1,Intel Pentium Gold G5420,29,GeForce 9500 GT,119.99,,11.74,160.73
+3116180,KOUR 64,2024,*i5-9600K (20-30% CPU Usage),*GTX 1050 4GB (50-70% GPU Usage),4,Intel Core i5-9600K,166,GeForce GTX 1050 Ti,263.99,,11.77,441.76
+2851620,From Eva with Green,2024,Intel i7 or better,Nvidia GeForce GTX 960,10,Intel Core i7-3770,98.69,GeForce GTX 960,249,,31.99,379.68
+2799360,iZolated,2024,64bit Intel compatible Dual Core CPU,2 GB VRAM with support 12dx/openGL 4,4,Intel Pentium E2220,12.99,GeForce GTX 760,269,,11.77,293.76
+2797570,Craft Lands,2024,Intel i5-8400,GTX 1660,16,Intel Core i5-8400T,113.37,GeForce GTX 1660,231.32,,43.83,388.52
+3184880,DOCE,2024,AMD Ryzen 7 3700X / Intel Core i7-9700K,AMD Radeon RX 5700 XT 8GB / NVIDIA GeForce RTX 2060S 8GB,16,Intel Core i7-3770,98.69,GeForce RTX 2060 SUPER,575,,43.83,717.52
+2724500,Alpaca Wonders Why,2024,Intel i5 4570 @ 3.2 GHz / AMD Phenom II 945 @ 3.0 GHz,NVIDIA GTX 960 / AMD R9 270X,8,Intel Core i5-2400,49.99,GeForce GTX 960,249,,31.99,330.98
+2767030,Marvel Rivals,2024,Intel Core i5-10400 or AMD Ryzen 5 5600X,NVIDIA GeForce RTX 2060 (Super) / AMD RX 5700-XT / Intel Arc A750,16,Intel Core i5-2400,49.99,GeForce RTX 2060 SUPER,575,,43.83,668.82
+2844820,Codename Attila,2024,Core i5-9400F,GTX 1650,16,Intel Core i5-9400F,93,GeForce GTX 1650 SUPER,419,,43.83,555.83
+3092760,Light - Die to Survive,2024,Intel® Core™ i7-9700 or higher,NVIDIA® Geforce® RTX2060 (6GB) or higher AMD Radeon™ RX 5600 XT or higher,16,Intel Core i7-9700K,239.43,GeForce RTX 2060 SUPER,575,,43.83,858.26
+3091150,Run Higher,2024,AMD Ryzen 7 5700x,RTX 2070,16,AMD A10-5700,72.51,GeForce RTX 2070 SUPER,689,,43.83,805.34
+2986790,Monster Hunting: Incremental Grind Forever,2024,Intel Core i5 or AMD equivalent with SSE4.1 support,Nvidia GeForce GTX 1650 or AMD Radeon RX 560,8,Intel Core i5-2400,49.99,GeForce GTX 1650 SUPER,419,,31.99,500.98
+2766560,Puzzle Journey,2024,Intel i5-4590 / AMD Ryzen 5 1500X 或更高性能,NVIDIA GeForce GTX 970 / AMD Radeon R9 290 或等效DX12 GPU,8,AMD Ryzen 5 5500,74.22,GeForce GTX 970,100,,31.99,206.21
+2700410,Drak(c)ula,2024,i9-9900k,2080 gtx,32,Intel Core i9-9900KF,329,GeForce RTX 2080,735,,125.99,1189.99
+3131770,Arch Legends,2024,Intel Core 7 10700 / AMD Ryzen 5 3600X,Nvidia GForce GTX 1650 / AMD Radeon RX 580,12,AMD Ryzen 5 5500,74.22,GeForce GTX 1650 SUPER,419,,59.99,553.21
+2656540,Ballads of Hongye: REBORN,2024,Intel Core i5-13600k,NVIDIA GeForce RTX 3070,32,Intel Core i5-13600KF,195.9,GeForce RTX 3070,698,,125.99,1019.89
+2806890,STAY ALIVE MY SON (VR): A True Story About A Father's Relentless Search For His Son,2024,Intel Core i9 13900K,NVIDIA RTX 3080,64,Intel Core i9-13900,414.99,GeForce RTX 3080 10GB,779,,149.99,1343.98
+2771320,The Nom,2024,3.5 GHz,GTX 950,6,Intel Xeon E3-1220 V6,25,GeForce GTX 950,199,,31.99,255.99
+2791790,Super Kart Mini Car Race,2024,intel core i5,Nvidia GTX 1650,8,Intel Core i5-2400,49.99,GeForce GTX 1650 SUPER,419,,31.99,500.98
+2646200,Wifey's Dilemma Revisited,2024,2.0 Ghz 64-bit Intel-compatible,OpenGL 3.0 or DirectX 11,3,Intel Pentium E2220,12.99,GeForce GTX 760,269,,11.77,293.76
+1013140,Outcast - A New Beginning,2024,Ryzen 5 5600X / Core i5-12400,GeForce RTX 2070 Super / Radeon RX 6800 XT,16,AMD Ryzen 5 5500,74.22,GeForce RTX 2070 SUPER,689,,43.83,807.05
+2954850,Her Shoes,2024,i7,GTX1050,8,Intel Core i7-3770,98.69,GeForce GTX 1050 Ti,263.99,,31.99,394.67
+1415220,It's Only Money,2024,Intel i7 (11th Gen) or Ryzen 5 (5000 series) or equivalent,Geforce GTX 3070 or AMD Radeon RX 6700-XT (16GB) or equivalent,16,Intel Core i7-3770,98.69,GeForce RTX 3070,695,,43.83,837.52
+2276140,Distant Sun,2024,AMD Ryzen 7 5800X 8-Core Processor,RTX 3070,16,AMD Ryzen 7 5800XT,140,GeForce RTX 3070,698,,43.83,881.83
+2777630,Echoes of The Backrooms: Remastered,2024,Intel Core i7-10700KF,"NVIDIA RTX 3060, NVIDIA RTX 4060",16,Intel Core i7-10700KF,245,GeForce RTX 3060 12GB,256.98,,43.83,545.81
+3010670,Two Doors,2024,Intel i7 6700,NVIDIA GeForce GTX 1050 or AMD equivalent,8,Intel Core i7-6700,123,GeForce GTX 1050 Ti,263.99,,31.99,418.98
+2736780,RED NIGHT,2024,Intel Core i5-13100,NVIDIA GeForce RTX 2070 super,16,Intel Core i5-2400,49.99,GeForce RTX 2070 SUPER,689,,43.83,782.82
+2694490,Path of Exile 2,2024,Intel® Core™ i5-10500 or AMD™ Ryzen 5 3700X,"NVIDIA® GeForce® RTX 2060, Intel® Arc™ A770, or ATI Radeon™ RX 5600XT",16,AMD Ryzen 5 5500,74.22,GeForce RTX 2060 SUPER,575,,43.83,693.05
+2435910,Ghoul Smash,2024,Intel i3 10100f,GTX 1050,2.0,Intel Core i3-10100,99.99,GeForce GTX 1050 Ti,263.99,,11.74,375.72
+2846290,Unspoken,2024,Intel Core i5,NVIDIA GeForce GTX 1050,8,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,31.99,345.97
+3066660,Ells Tales: Chicken,2024,Intel i5 and up,GTX 1660 and up,8,Intel Core i5-2400,49.99,GeForce GTX 1660,231.32,,31.99,313.30
+844910,The Flying Farm,2024,2 GHz+,256 MB Video Card,0.3,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,,11.74,144.72
+2434450,Skystrider,2024,"Intel Core i7-6700, Ryzen 5 1500X","RTX 2070, RX 6600, Arc A750",8,Intel Core i7-3770,98.69,GeForce RTX 2070 SUPER,689,,31.99,819.68
+3162060,VHS Collection: Goodnight Me,2024,Intel Core I5 4200U / AMD A8-5545M,Nvidia GTX 1050 / AMD Radeon RX 560,6,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,31.99,345.97
+2665180,ALEPH,2024,Core i5 6600,GTX 1050,8,Intel Core i5-6600K,89.99,GeForce GTX 1050 Ti,263.99,,31.99,385.97
+2778570,Lost Hope,2024,AMD Ryzen 5 3600 or Intel Core i5-10400F,NVIDIA GTX 1660 Super or AMD Radeon RX 580,16,Intel Core i5-2400,49.99,GeForce GTX 1660 SUPER,339,,43.83,432.82
+3118330,VHS: Recovered Tapes,2024,Intel Core i3,NVIDIA GeForce GTX 2060,16,Intel Core i3-7100T,29,GeForce RTX 2060,309,,43.83,381.83
+2905290,Easy Breezy Drive,2024,Ryzen 5 5600X / Intel Core i7-9700k,Nvidia GeForce RTX 3060 ti (High Settings),16,Intel Core i7-3770,98.69,GeForce RTX 3060 Ti,489.09,,43.83,631.61
+2885990,Qwepoi,2024,"x86_64 CPU with SSE4.2 instructions, with 4 physical cores or more - Example: Intel Core i5-6600K, AMD Ryzen 5 1600","Dedicated graphics with full Vulkan 1.2 support - Example: NVIDIA GeForce GTX 1050 (Pascal), AMD Radeon RX 460 (GCN 4.0)",4,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,11.77,325.75
+1178530,Thirty-One 3D Premium,2024,1 GHz,256 MB / OpenGL 2.0,0.5,Intel Pentium E2220,12.99,GeForce 9500 GT,119.99,,11.74,144.72
+3092050,Pantsu!,2024,Intel Core i7-8700K,GeForce GTX 960M,2,Intel Core i7-8700K,179,GeForce GTX 960,249,,11.74,439.74
+2778540,勇者救魔神—阿奎拉尼大陆战记,2024,Intel i3-4340/AMD FX-6300及以上,GTX 660 HD 7850及以上,4,Intel Core i3-7100T,29,GeForce GTX 660,,,11.77,40.77
+1179580,KAKU: Ancient Seal,2024,Intel i7-9700 or AMD Ryzen5 2600X or faster processor,Nvidia RTX2060 8GB or AMD 5700 8GB or Higher,16,Intel Core i7-3770,98.69,GeForce RTX 2060,309,,43.83,451.52
+2852490,Hunting with Dad,2024,Intel Core i5 4670 / AMD A10-7850K,NVIDIA GeForce GTX960 VRAM 2GB / AMD Radeon R9 380 VRAM 2GB and over,3,Intel Core i5-2400,49.99,GeForce GTX 960,249,,11.77,310.76
+1592280,Selaco,2024,Intel i7-7700K / Ryzen 7 1700,NVIDIA GTX 1070 / AMD Radeon RX 5600 XT,8,Intel Pentium E5700,14.99,GeForce GTX 1070,469,,31.99,515.98
+2852480,DETECTIVE - The Motel,2024,Intel Core i7 / AMD Ryzen 7,GTX 1070 4GB / Radeon RX 5700-XT 4GB or better,16,Intel Core i7-3770,98.69,GeForce GTX 1070,469,,43.83,611.52
+2283060,Christmas SQUIRT!,2024,Intel® Core™ i5-6500 / AMD Ryzen™ 5 1600 or higher,NVIDIA® GeForce® GTX 1660 Ti or higher,4,Intel Core i5-2400,49.99,GeForce GTX 1660 Ti,425,,11.77,486.76
+2853730,Skull and Bones,2024,Intel i7 8700k AMD Ryzen5 3600,Nvidia RTX 2070 8GB or AMD RX 5700XT 8GB,16,Intel Core i7-3770,98.69,GeForce RTX 2070 SUPER,738,,43.83,880.52
+3142400,Scourge Of War - Gettysburg,2024,Intel I9 or Equivalent,GeForce 3080 Ti,32,Intel Core i9-7920X,170.66,GeForce RTX 3080 Ti,949.99,,125.99,1246.64
+3009750,Dimensional Phobos Threat,2024,i5- 10300H OR +,RTX 3060,16,Intel Core i5-2400,49.99,GeForce RTX 3060 12GB,256.98,,43.83,350.80
+2846580,Grappling Hook and Grappling Hook,2024,Intel i7-10700k,NVIDIA RTX 3080,16,Intel Core i7-10700KF,245,GeForce RTX 3080 10GB,779,,43.83,1067.83
+3065920,Black Myth: Heaven,2024,Intel i7 12700K,GeForce RTX 3060,16,Intel Core i7-12700KF,174.99,GeForce RTX 3060 12GB,256.98,,43.83,475.80
+3157790,ALL IN ONE ADVENTURE VR,2024,Intel Core i5-4590 / AMD FX 8350,NVIDIA GTX 970 / AMD Radeon R9 290,8,Intel Core i5-2400,49.99,GeForce GTX 970,100,,31.99,181.98
+3118570,Junkyard Killbots,2024,1.2 ghz,512 mb video memory,4,Intel Pentium E2220,12.99,GeForce GTX 460,154.87,,11.77,179.63
+2777110,River Attack,2024,intel core i5 or AMD Ryzen 5,Nvidia Geforce RTX 2060 or equivalents,16,Intel Core i5-2400,49.99,GeForce RTX 2060,309,,43.83,402.82
+2957330,Silent Mourning,2024,Intel Core i5-12400F,NVIDIA RTX 3060,0.0,Intel Core i5-12400F,108.99,GeForce RTX 3060 12GB,256.98,,11.74,377.71
+2373550,Cosmantic Cluster,2024,i5 or greater,GeForce GTX 650/Radeon HD 7770,8,Intel Core i5-2400,49.99,GeForce GTX 650,,,31.99,81.98
+351970,Tales of Zestiria,2015,"Intel Core i3-530, 2.93 GHz / AMD Phenom II X4 940, 3.0GHz",Nvidia GeForce GTX 560 Ti / AMD Radeon HD 7850 or equivalent,4,Intel Core i3-7100T,29,EVGA 01G-P3-1561-KR,701.12,Samsung M393B5170FH0-CH9 4 GB,11.77,741.89
+217120,Waves 2: Notorious,2015,"Quad-core Intel or AMD, 2.5 GHz or faster",Shader Model 5.0 compatible graphics card,8,Intel Pentium E5700,14.99,MSI GTX 1050 Ti 4GT OC,263.99,Timetec PINNACLE Konduit 16 GB,31.99,310.97
+355970,Home is Where One Starts...,2015,"Intel i5, 2.8+ GHz","NVIDIA GTX 570, AMD Radeon 6870, or equivalent",4,Intel Core i5-2400,49.99,PowerColor Red Devil,539,Samsung M393B5170FH0-CH9 4 GB,11.77,600.76
+234140,Mad Max,2015,"Intel Core i7-3770, 3.4 GHz or AMD FX-8350, 4.0 GHz",NVIDIA GeForce GTX 760 (3 GB Memory or higher) or AMD Radeon HD 7970 (3 GB Memory or higher),8,Intel Core i7-3770,98.69,Asus DUAL EVO OC,274.99,Timetec PINNACLE Konduit 16 GB,31.99,405.67
+382300,Kidnapped,2015,"Quad-core Intel or AMD processor, 4 GHz or faster",NVIDIA GeForce 580 GTX or AMD Radeon 6970 HD series card,8,AMD FX-4350,55.05,XFX GTS XXX,159.99,Timetec PINNACLE Konduit 16 GB,31.99,247.03
+387060,Earth Overclocked,2015,"AMD A6-5400K APU @ 3.6 GHz, Intel Core 2 Duo E8400 @ 3.00GHz","Intel HD Graphics 4000 and higher, AMD Radeon R7 240 and up, Nvidia GeForce GT 720 and up",2,Intel Pentium Gold G5420,29,Asus R7240-2GD3-L,124.74,Kingston KVR800D2S6/2G 2 GB,11.74,165.48
+351300,Ceres,2015,Intel i5 3.2 GHz or equivalent AMD processor and above,"1 GB nVidia Geforce GTX660 or equivalent, 1 GB ATI HD7850 or equivalent",4,Intel Xeon E3-1220 V6,25,MSI GAMING X,425,Samsung M393B5170FH0-CH9 4 GB,11.77,461.77
+368220,Close Combat - Panthers in the Fog,2015,1.5 GHz CPU,"512MB Video RAM, DirectX 9 compatible and capable of 1024 x 768 resolution or higher.",0.0,Intel Pentium E2220,12.99,XFX PV-T95G-ZNF2,119.99,Kingston KVR800D2S6/2G 2 GB,11.74,144.72
+356110,Box Out!,2015,1.4GHz or faster,"Graphics Card made within the last 4 years (Pixel Shader 3.0, Vertex Shader 3.0)",1,Intel Pentium E2220,12.99,Gigabyte GV-N460OC-1GI V3,154.87,Kingston KVR800D2S6/2G 2 GB,11.74,179.60
+314070,Super Mega Baseball: Extra Innings,2015,Intel Core i5 or AMD equivalent,"DX11 compatible, Nvidia/ATI",4,Intel Core i5-2400,49.99,Gigabyte GV-N460OC-1GI V3,154.87,Samsung M393B5170FH0-CH9 4 GB,11.77,216.63
+391780,Uebergame,2015,3.0 GHz Dual or Quad Core,"1024 MB VRam or greater, Shader 3.0 supported",4,Intel Pentium E5700,14.99,MSI ARMOR OC,231.32,Samsung M393B5170FH0-CH9 4 GB,11.77,258.08
+339840,The Moment of Silence,2015,"1,4 GHz Intel or AMD",DirectX compliant video card with 128 MB VRAM,1,AMD FX-4350,55.05,Gigabyte GV-N460OC-1GI V3,154.87,Kingston KVR800D2S6/2G 2 GB,11.74,221.66
+381990,Dragon Saga,2015,Pentium 4 2.0GHz \ AMD FX,"Direct X9, 2 GB RAM",0.0,Intel Pentium E2220,12.99,Asus DirectCU II,269,Kingston KVR800D2S6/2G 2 GB,11.74,293.73
+375310,Mighty Switch Force! Hose It Down!,2015,Intel™ Core 2 Duo / AMD™ Athlon 64 X2 or higher,"NVIDIA® GeForce™ 200 series or higher, AMD® Radeon™ HD5000 series or higher (it must be able to manage Pixel Shader 3.0) with at least 512MB of display memory.",4,Intel Pentium E2220,12.99,NVIDIA 9001G4012500000,389,Samsung M393B5170FH0-CH9 4 GB,11.77,413.76
+372360,Tales of Symphonia,2016,"Intel Core i3-530, 2.93 GHz / AMD Phenom II X4 940, 3.0GHz",Nvidia GeForce GTX 560 Ti / AMD Radeon HD 7850,4,Intel Core i3-7100T,29,EVGA 01G-P3-1561-KR,701.12,Samsung M393B5170FH0-CH9 4 GB,11.77,741.89
+547040,Above - VR,2016,Intel i7,"GTX 970, AMD 290, or equivalent",16,Intel Core i7-3770,98.69,GeForce GTX 970,100,Kingston KVR13LR9D4/16I 16 GB,43.83,242.52
+423900,Dinocide,2016,Dual Core 1.6GHz or equivalent,"128MB of Video Memory, capable of Shader Model 2.0+; generally everything made since 2004 should work",2,Intel Pentium E2220,12.99,XFX PV-T95G-ZNF2,119.99,Kingston KVR800D2S6/2G 2 GB,11.74,144.72
+471770,"In Case of Emergency, Release Raptor",2016,Any Quad Core or 3.0+ GHz Dual Core CPU,NVIDIA GTX 660 2GB / AMD HD 7870 2GB,5,Intel Core i3-7100T,29,ASRock Challenger D,219.99,Silicon Power SP016GLLTU160N22 16 GB,16.95,265.94
+460700,Song of the Deep,2016,"4 CPUs, &gt;= 2.0 Ghz",1GB VRAM or higher,4,Intel Pentium E2220,12.99,MSI ARMOR OC,231.32,Samsung M393B5170FH0-CH9 4 GB,11.77,256.08
+458970,Intruder Alert: Ixian Operations,2016,2 Ghz,"OpenGL support (FBO support, at least 4096*4096 textures)",1,Intel Pentium E2220,12.99,Gigabyte GV-N460OC-1GI V3,154.87,Kingston KVR800D2S6/2G 2 GB,11.74,179.60
+474960,Quantum Break,2016,"Intel Core i5 4690, 3.9GHz or AMD equivalent",NVIDIA GeForce GTX 970 or AMD Radeon R9 390,16,Intel Core i5-2400,49.99,GeForce GTX 970,100,Kingston KVR13LR9D4/16I 16 GB,43.83,193.82
+458990,Astral Domine,2016,"Intel i5-4590, AMD FX 8350 equivalent or greater",NVIDIA GTX 970 / AMD R9 290 equivalent or greater,8,Intel Core i5-2400,49.99,GeForce GTX 970,100,Timetec PINNACLE Konduit 16 GB,31.99,181.98
+497360,"Gabriel Knight® 3: Blood of the Sacred, Blood of the Damned",2016,1.4 GHz,DirectX 9 Compatible,0.5,Intel Pentium E2220,12.99,XFX PV-T95G-ZNF2,119.99,Kingston KVR800D2S6/2G 2 GB,11.74,144.72
+312560,Xanadu Next,2016,Core 2 Duo 2GHz or higher,"64 MB VRAM, 3D accelerator compatible w/ DirectX 9.0c",2,Intel Pentium E2220,12.99,XFX PV-T95G-ZNF2,119.99,Kingston KVR800D2S6/2G 2 GB,11.74,144.72
+542350,Castle of no Escape 2,2016,"3.0 GHz, 4 cores",512MB VRAM,2,Intel Pentium E5700,14.99,Gigabyte GV-N460OC-1GI V3,154.87,Kingston KVR800D2S6/2G 2 GB,11.74,181.60
+444640,Bloons TD Battles,2016,2Ghz or better,"OpenGL 2.0 compatible, ATI, Nvidia or Intel HD",1.0,Intel Pentium E2220,12.99,Gigabyte GV-N460OC-1GI V3,154.87,Kingston KVR800D2S6/2G 2 GB,11.74,179.60
+394760,Dead Effect 2,2016,"Intel Core i7-3770 - AMD FX-8350, or faster","NVIDIA GeForce GTX 970 - AMD Radeon R9 290, or better",8,Intel Core i7-3770,98.69,GeForce GTX 970,100,Timetec PINNACLE Konduit 16 GB,31.99,230.68
+444990,Ad Exitum,2016,"Quad-core Intel or AMD, 2.5 GHz or faster",DirectX 11 compatible graphics card,8,Intel Pentium E5700,14.99,Asus DirectCU II,269,Timetec PINNACLE Konduit 16 GB,31.99,315.98
+496930,Sumeru,2016,2.5 GHz Intel Core i5,"512MB Video Memory, capable of OpenGL 2.0/DX9(Shader 2.0) support",2,Intel Pentium E5700,14.99,Gigabyte GV-N460OC-1GI V3,154.87,Kingston KVR800D2S6/2G 2 GB,11.74,181.60
+396870,Catyph: The Kunci Experiment,2016,"2,5Ghz+",Video card with 1GB VRAM,5,AMD Ryzen 5 8500G,152.5,MSI ARMOR OC,231.32,Silicon Power SP016GLLTU160N22 16 GB,16.95,400.77
+744660,Dream Channel,2017,"Intel Core i5-4590 or AMD FX 8350, equivalent or better",GeForce GTX 980,8,Intel Core i5-2400,49.99,EVGA Superclocked ACX 2.0,389,Timetec PINNACLE Konduit 16 GB,31.99,470.98
+456670,Hand of Fate 2,2017,2.66GHz Intel Core i7,"Intel HD Graphics 5200, NVIDIA GeForce GT 750, Radeon HD 7800",4,Intel Pentium E5700,14.99,PowerColor RX7800XT 16G-P,599.99,Samsung M393B5170FH0-CH9 4 GB,11.77,626.75
+592020,SmuggleCraft,2017,"Intel Core i5 or AMD Phenom II X3, 2.8 GHz",Nvidia GeForce GTX 660 or ATI Radeon HD 7950,2,Intel Pentium E5700,14.99,MSI GAMING X,425,Kingston KVR800D2S6/2G 2 GB,11.74,451.73
+555830,Vecitas,2017,Intel i7,"Gtx 970, AMD 290, or equivalent",8,Intel Core i7-3770,98.69,GeForce GTX 970,100,Timetec PINNACLE Konduit 16 GB,31.99,230.68
+623810,Rabbit Story,2017,"Quad-core Intel or AMD processor, 3 GHz or faster",NVIDIA Geforce GTX 660 / AMD Radeon HD 7870 or higher,8,Intel Pentium E5700,14.99,ASRock Challenger D,219.99,Timetec PINNACLE Konduit 16 GB,31.99,266.97
+394120,Home Legacy,2017,"Quad-core Intel or AMD, 2.5 GHz or faster",DirectX 11 compatible graphics card,16,Intel Pentium E5700,14.99,Asus DirectCU II,269,Kingston KVR13LR9D4/16I 16 GB,43.83,327.82
+545890,Breaking Wheel,2017,i5 or better,"Radeon HD 7850, Nvidia GTX 760 or better",8,Intel Core i5-2400,49.99,Asus DUAL EVO OC,274.99,Timetec PINNACLE Konduit 16 GB,31.99,356.97
+738480,Find Pixel,2017,"Intel i3-4000, 32/64 bit",GTX 650,2.0,Intel Core i3-7100T,29,MSI GeForce GTX 1650 SUPER,419,Kingston KVR800D2S6/2G 2 GB,11.74,459.74
+244750,Aztez,2017,2.5+ GHz Quad core,"NVIDIA GTX 660 or better, ATI 7950 or better",4,Intel Core i5-2400,49.99,MSI GAMING X,425,Samsung M393B5170FH0-CH9 4 GB,11.77,486.76
+700480,Microsoft Allegiance,2017,"Intel i3+, AMD K10",Any 3D video card (DirectX 9 Compatible),4,Intel Core i3-7100T,29,XFX PV-T95G-ZNF2,119.99,Samsung M393B5170FH0-CH9 4 GB,11.77,160.76
+640890,Will Glow the Wisp,2017,"Intel Core I5-4440 3,10 GHz",GeForce GTX 660 (2048 MB Ram),8,Intel Core i5-4440,100,MSI ARMOR OC,231.32,Timetec PINNACLE Konduit 16 GB,31.99,363.31
+520720,Dear Esther: Landmark Edition,2017,"Intel Core 2 Duo E7300 (2 * 2660), AMD A8-3850 (4 * 2900) or equivalent","NVIDIA GeForce GTX 560 Ti (1024 MB), AMD Radeon HD7770 (1024 MB)",4,Intel Core i3-7100T,29,EVGA 01G-P3-1561-KR,701.12,Samsung M393B5170FH0-CH9 4 GB,11.77,741.89
+852920,Bad Bots Rise,2018,"Quad-Core, 2.8 GHz or higher",GeForce GTX 950M 2GB,8,Intel Pentium E5700,14.99,EVGA Superclocked,199,Timetec PINNACLE Konduit 16 GB,31.99,245.98
+830590,Holy Potatoes! A Spy Story?!,2018,"Intel Core2 Duo 2.3GHz or AMD Phenom II X4 3,4GHz",ATI Radeon HD5000 series or nVidia GeForce 500 GTX series,8,Intel Pentium E2220,12.99,GeForce GTX 570,288.74,Timetec PINNACLE Konduit 16 GB,31.99,333.72
+851790,AstronTycoon,2018,2.7 GHz dual core,"Dedicate graphic card DDR3 1.5 GB (800 MHz), Open GL 4.0, Shader 5.0",1,Intel Pentium E5700,14.99,MSI GTX 1050 Ti 4GT OC,263.99,Kingston KVR800D2S6/2G 2 GB,11.74,290.72
+775900,MotoGP™18,2018,"Intel Core i7-2600, AMD FX-8350 or equivalent",NVIDIA GeForce GTX 960 with 4 GB VRAM or more | AMD Radeon R9 380 with 4 GB VRAM or more,16,Intel Core i7-3770,98.69,Asus STRIX-GTX960-DC2OC-2GD5,249,Kingston KVR13LR9D4/16I 16 GB,43.83,391.52
+936160,Atelier Rorona ~The Alchemist of Arland~ DX,2018,Core i7 3.4GHz over,"NVIDIA GeForce GTX960 or better, 1920x1080 (Graphic Memory 2GB or better)",8,Intel Xeon E3-1220 V6,25,Asus STRIX-GTX960-DC2OC-2GD5,249,Timetec PINNACLE Konduit 16 GB,31.99,305.99
+686620,3D Mahjong worlds,2018,"Intel® i5-4590, AMD FX 8350 equivalent or better","NVIDIA GeForce® GTX 970, AMD Radeon™ R9 290 equivalent or better, Video Output: HDMI 1.4, DisplayPort 1.2 or newer",8,Intel Core i5-2400,49.99,GeForce GTX 970,100,Timetec PINNACLE Konduit 16 GB,31.99,181.98
+774811,YUMENIKKI -DREAM DIARY-,2018,"Intel i7 920 @ 2.7 GHz, AMD Phenom II 945 @ 3.0 GHz","NVIDIA GTX 660, Radeon R9-270",8,Intel Core i7-3770,98.69,ASRock Challenger D,219.99,Timetec PINNACLE Konduit 16 GB,31.99,350.67
