@@ -15,7 +15,6 @@ const state = {
   ram: "All",
   searchTerm: "",
   showFrontier: true,
-  storyPreset: "overview",
   activeComponents: new Set(["cpu", "gpu", "ram"]),
   barMode: "grouped",
   gpuDomain: []
@@ -85,15 +84,6 @@ function setupControls() {
   const gameSearch = d3.select("#gameSearch");
   const gameSuggestions = d3.select("#gameSuggestions");
   const showFrontier = d3.select("#showFrontier");
-  const storyNote = d3.select("#storyNote");
-  const storyButtons = d3.selectAll("#storyPresets .chip");
-
-  const STORY_NOTES = {
-    overview: "Overview: balanced view across the full timeline.",
-    gpuEra: "GPU Era: focus on late years where GPU costs dominate total price.",
-    budgetEra: "Budget Era: early years and low-RAM slices to inspect affordability.",
-    highEndEra: "High-End Era: recent years and high-RAM requirements for premium profiles."
-  };
 
   const syncYearRangeUI = () => {
     const minBound = +yearMin.attr("min");
@@ -123,13 +113,6 @@ function setupControls() {
       });
   };
 
-  const syncStoryButtons = () => {
-    storyButtons.classed("active", function () {
-      return this.dataset.story === state.storyPreset;
-    });
-    storyNote.text(STORY_NOTES[state.storyPreset] || STORY_NOTES.overview);
-  };
-
   gpuFilter.selectAll("option.gpu-option")
     .data(state.gpuDomain)
     .join("option")
@@ -151,57 +134,7 @@ function setupControls() {
     .join("option")
     .attr("value", d => d);
 
-  const applyStoryPreset = preset => {
-    state.storyPreset = preset;
-    state.selectedGame = null;
-    state.searchTerm = "";
-    gameSearch.property("value", "");
-    state.gpuBrand = "All";
-    gpuFilter.property("value", "All");
-    state.ram = "All";
-    ramFilter.property("value", "All");
-    state.activeComponents = new Set(["cpu", "gpu", "ram"]);
-    state.showFrontier = true;
-    showFrontier.property("checked", true);
-
-    if (preset === "gpuEra") {
-      state.minYear = 2022;
-      state.maxYear = 2024;
-      state.barMode = "stacked";
-    } else if (preset === "budgetEra") {
-      state.minYear = 2015;
-      state.maxYear = 2018;
-      state.barMode = "grouped";
-      if (ramFilter.select("option[value='4']").size()) {
-        state.ram = "4";
-        ramFilter.property("value", "4");
-      }
-    } else if (preset === "highEndEra") {
-      state.minYear = 2023;
-      state.maxYear = 2024;
-      state.barMode = "stacked";
-      if (ramFilter.select("option[value='16']").size()) {
-        state.ram = "16";
-        ramFilter.property("value", "16");
-      }
-    } else {
-      state.minYear = 2015;
-      state.maxYear = 2024;
-      state.barMode = "grouped";
-    }
-
-    yearMin.property("value", state.minYear);
-    yearMax.property("value", state.maxYear);
-    syncYearRangeUI();
-    syncComponentButtons();
-    syncBarModeButtons();
-    syncStoryButtons();
-    updateCharts();
-  };
-
   yearMin.on("input", function () {
-    state.storyPreset = "overview";
-    syncStoryButtons();
     state.minYear = +this.value;
     if (state.minYear > state.maxYear) {
       state.maxYear = state.minYear;
@@ -212,8 +145,6 @@ function setupControls() {
   });
 
   yearMax.on("input", function () {
-    state.storyPreset = "overview";
-    syncStoryButtons();
     state.maxYear = +this.value;
     if (state.maxYear < state.minYear) {
       state.minYear = state.maxYear;
@@ -224,22 +155,16 @@ function setupControls() {
   });
 
   gpuFilter.on("change", function () {
-    state.storyPreset = "overview";
-    syncStoryButtons();
     state.gpuBrand = this.value;
     updateCharts();
   });
 
   ramFilter.on("change", function () {
-    state.storyPreset = "overview";
-    syncStoryButtons();
     state.ram = this.value;
     updateCharts();
   });
 
   gameSearch.on("input", function () {
-    state.storyPreset = "overview";
-    syncStoryButtons();
     state.searchTerm = this.value.trim().toLowerCase();
     updateCharts();
   });
@@ -263,8 +188,6 @@ function setupControls() {
         state.activeComponents.add(component);
       }
 
-      state.storyPreset = "overview";
-      syncStoryButtons();
       syncComponentButtons();
       updateCharts();
     });
@@ -273,15 +196,9 @@ function setupControls() {
     .selectAll("button")
     .on("click", function () {
       state.barMode = this.dataset.mode;
-      state.storyPreset = "overview";
-      syncStoryButtons();
       syncBarModeButtons();
       updateCharts();
     });
-
-  storyButtons.on("click", function () {
-    applyStoryPreset(this.dataset.story);
-  });
 
   d3.select("#clearSelection").on("click", () => {
     state.selectedGame = null;
@@ -289,7 +206,6 @@ function setupControls() {
   });
 
   syncYearRangeUI();
-  syncStoryButtons();
 }
 
 function updateCharts() {
@@ -385,10 +301,8 @@ function updateScatter() {
   const x = d3.scaleLinear().domain([state.minYear - 0.5, state.maxYear + 0.5]).range([0, width]);
   const yMax = d3.max(state.filtered, d => d.total_price) || 100;
   const y = d3.scaleLinear().domain([0, yMax * 1.08]).nice().range([height, 0]);
-
-  const gpuColor = d3.scaleOrdinal()
-    .domain(state.gpuDomain)
-    .range(["#2e7d32", "#ef6c00", "#546e7a", "#1565c0", "#8e8e93"]);
+  const gpuColor = getGpuColorScale();
+  renderScatterLegend(gpuColor);
 
   g.select(".x-axis").transition().duration(600)
     .call(d3.axisBottom(x).ticks(Math.min(state.maxYear - state.minYear + 1, 10)).tickFormat(d3.format("d")));
@@ -508,6 +422,47 @@ function updateScatter() {
     .transition()
     .duration(560)
     .attr("r", d => state.selectedGame && d.game_name === state.selectedGame.game_name ? 8.5 : 5.6);
+}
+
+function getGpuColorScale() {
+  return d3.scaleOrdinal()
+    .domain(state.gpuDomain)
+    .range(d3.schemeTableau10);
+}
+
+function renderScatterLegend(gpuColor) {
+  const legend = d3.select("#scatterLegend");
+  const legendItems = [
+    ...state.gpuDomain.map(brand => ({
+      label: brand,
+      color: gpuColor(brand),
+      isLine: false
+    })),
+    {
+      label: "Lowest-cost line",
+      color: "#f59e0b",
+      isLine: true
+    }
+  ];
+
+  const items = legend.selectAll("div.legend-item")
+    .data(legendItems, d => d.label);
+
+  items.exit().remove();
+
+  const enter = items.enter()
+    .append("div")
+    .attr("class", "legend-item");
+
+  enter.append("span").attr("class", "legend-swatch");
+  enter.append("span").attr("class", "legend-label");
+
+  const merged = enter.merge(items);
+  merged.select(".legend-label").text(d => d.label);
+  merged.select(".legend-swatch")
+    .classed("legend-line", d => d.isLine)
+    .style("background", d => d.isLine ? "transparent" : d.color)
+    .style("border-color", d => d.isLine ? "transparent" : "rgba(0, 0, 0, 0.08)");
 }
 
 function createBarChart() {

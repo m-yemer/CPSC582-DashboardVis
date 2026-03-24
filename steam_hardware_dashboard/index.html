@@ -335,6 +335,12 @@
       border: 1px solid rgba(0, 0, 0, 0.08);
     }
 
+    .legend-line {
+      width: 18px;
+      height: 0;
+      border-top: 2px dashed #f59e0b;
+    }
+
     .tooltip {
       position: fixed;
       pointer-events: none;
@@ -424,17 +430,6 @@
       </div>
 
       <div class="control-group">
-        <label class="control-label">Story Presets</label>
-        <div id="storyPresets" class="chip-row">
-          <button class="chip active" data-story="overview">Overview</button>
-          <button class="chip" data-story="gpuEra">GPU Era</button>
-          <button class="chip" data-story="budgetEra">Budget Era</button>
-          <button class="chip" data-story="highEndEra">High-End Era</button>
-        </div>
-        <div id="storyNote" class="story-note">Overview: balanced view across the full timeline.</div>
-      </div>
-
-      <div class="control-group">
         <label class="control-label">Insights</label>
         <label class="check-row" for="showFrontier">
           <input id="showFrontier" type="checkbox" checked />
@@ -492,6 +487,7 @@
       <article class="card">
         <h2>Total Hardware Cost Over Time</h2>
         <div id="scatterMeta" class="card-meta">Scatter plot: point color by GPU brand; click a point to focus a game.</div>
+        <div id="scatterLegend" class="legend-inline" aria-label="Scatter plot legend"></div>
         <svg id="scatterChart" class="viz" role="img" aria-label="Scatter plot of total hardware cost by release year"></svg>
       </article>
 
