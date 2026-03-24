@@ -2,11 +2,11 @@
 
 Interactive D3 dashboard for Steam game hardware pricing trends.
 
-Live dashboard: https://m-yemer.github.io/CPSC582-DashboardVis/js_html_dashboard_enhanced/
+Live dashboard: https://m-yemer.github.io/CPSC582-DashboardVis/
 
 ## Run Locally
 
-1. Open `js_html_dashboard_enhanced/index.html` in a browser.
+1. Open `steam_hardware_dashboard/index.html` in a browser.
 2. Ensure `games_all_optimized_cpu_matching.csv` is available at the repository root.
 
 ## Observable Reference Samples
@@ -40,6 +40,6 @@ Formula references used in the metrics:
 
 ## Project Files
 
-- `js_html_dashboard_enhanced/index.html`: Dashboard layout and styles.
-- `js_html_dashboard_enhanced/dashboard.js`: Data loading, filtering, interactions, and D3 charts.
+- `steam_hardware_dashboard/index.html`: Dashboard layout and styles.
+- `steam_hardware_dashboard/dashboard.js`: Data loading, filtering, interactions, and D3 charts.
 - `games_all_optimized_cpu_matching.csv`: Source dataset.
