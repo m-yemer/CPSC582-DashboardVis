@@ -2,7 +2,7 @@
 
 Interactive D3 dashboard for Steam game hardware pricing trends.
 
-Live dashboard: https://m-yemer.github.io/CPSC582-DashboardVis/
+Live dashboard: [https://m-yemer.github.io/CPSC582-DashboardVis/](https://m-yemer.github.io/CPSC582-DashboardVis/steam_hardware_dashboard/index.html)
 
 ## Run Locally
 
