@@ -6,6 +6,7 @@
   <title>Steam Game Hardware Cost Dashboard</title>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <style>
+    /* ── css custom properties ── */
     :root {
       --bg: #f4f7fb;
       --card: #ffffff;
@@ -24,6 +25,7 @@
       box-sizing: border-box;
     }
 
+    /* ── base layout & typography ── */
     body {
       margin: 0;
       font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -68,6 +70,7 @@
       font-size: 0.96rem;
     }
 
+    /* ── filter controls panel ── */
     .controls {
       padding: 16px;
       display: grid;
@@ -95,6 +98,7 @@
       gap: 8px;
     }
 
+    /* ── dual-handle year range slider ── */
     .dual-range {
       position: relative;
       height: 34px;
@@ -192,6 +196,12 @@
       font-size: 0.93rem;
     }
 
+    button:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+
+    /* ── chip toggle buttons ── */
     .chip-row {
       display: flex;
       gap: 8px;
@@ -234,13 +244,15 @@
       margin: 0;
     }
 
-    .story-note {
+    /* ── compare queue status text ── */
+    .compare-status {
+      font-size: 0.8rem;
       color: var(--muted);
-      font-size: 0.82rem;
-      line-height: 1.4;
-      min-height: 32px;
+      line-height: 1.35;
+      min-height: 18px;
     }
 
+    /* ── metric summary cards above the charts ── */
     .metrics-strip {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -285,6 +297,7 @@
       gap: 16px;
     }
 
+    /* ── chart card containers ── */
     .card {
       padding: 12px;
       min-height: 360px;
@@ -306,12 +319,27 @@
       min-height: 18px;
     }
 
+    .card-toolbar {
+      margin: 0 8px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .card-toolbar .chip {
+      padding: 6px 10px;
+      font-size: 0.84rem;
+    }
+
     .viz {
       width: 100%;
       height: 100%;
       min-height: 300px;
     }
 
+    /* ── chart legends ── */
     .legend-inline {
       display: flex;
       gap: 14px;
@@ -341,6 +369,7 @@
       border-top: 2px dashed #f59e0b;
     }
 
+    /* ── hover tooltip ── */
     .tooltip {
       position: fixed;
       pointer-events: none;
@@ -371,6 +400,7 @@
       text-anchor: middle;
     }
 
+    /* ── responsive breakpoints ── */
     @media (max-width: 1024px) {
       .metrics-strip {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -395,11 +425,12 @@
       <div class="subtitle">Interactive D3 dashboard for yearly trends, component costs, and price distribution.</div>
     </section>
 
+    <!-- dashboard filter controls panel -->
     <section class="controls" aria-label="Dashboard controls">
       <div class="control-group">
         <label class="control-label" for="yearMin">Time Range</label>
         <div class="range-wrap">
-          <div class="dual-range" id="yearDualRange">
+          <div class="dual-range">
             <div class="dual-range-track"></div>
             <div id="yearRangeFill" class="dual-range-fill"></div>
             <input id="yearMin" type="range" min="2015" max="2024" step="1" value="2015" aria-label="Minimum year" />
@@ -447,11 +478,12 @@
       </div>
 
       <div class="control-group">
-        <label class="control-label">Bar Mode</label>
-        <div id="barModeToggles" class="chip-row">
-          <button class="chip active" data-mode="grouped">Grouped View</button>
-          <button class="chip" data-mode="stacked">Stacked View</button>
+        <label class="control-label">Compare Mode</label>
+        <div class="chip-row">
+          <button id="addToCompare" class="chip">Add Selected</button>
+          <button id="clearCompare" class="chip">Clear Compare</button>
         </div>
+        <div id="compareStatus" class="compare-status">No games in compare queue (0/2)</div>
       </div>
 
       <div class="control-group">
@@ -460,6 +492,7 @@
       </div>
     </section>
 
+    <!-- derived metric summary cards -->
     <section class="metrics-strip" aria-label="Derived metrics">
       <article class="metric-card">
         <div class="metric-label">Filtered Games</div>
@@ -483,7 +516,9 @@
       </article>
     </section>
 
+    <!-- four chart panels -->
     <section class="charts-grid">
+      <!-- scatter: total hardware cost over time -->
       <article class="card">
         <h2>Total Hardware Cost Over Time</h2>
         <div id="scatterMeta" class="card-meta">Scatter plot: point color by GPU brand; click a point to focus a game.</div>
@@ -491,9 +526,16 @@
         <svg id="scatterChart" class="viz" role="img" aria-label="Scatter plot of total hardware cost by release year"></svg>
       </article>
 
+      <!-- bar: component cost by year, selected game, or compare mode -->
       <article class="card">
         <h2 id="barTitle">Average Component Cost by Year</h2>
         <div id="barMeta" class="card-meta">Grouped bars show average CPU/GPU/RAM price per year.</div>
+        <div class="card-toolbar" aria-label="Bar chart mode controls">
+          <div id="barModeToggles" class="chip-row">
+            <button class="chip active" data-mode="grouped">Grouped View</button>
+            <button class="chip" data-mode="stacked">Stacked View</button>
+          </div>
+        </div>
         <div class="legend-inline" aria-hidden="true">
           <div class="legend-item"><span class="legend-swatch" style="background: var(--cpu);"></span> CPU</div>
           <div class="legend-item"><span class="legend-swatch" style="background: var(--gpu);"></span> GPU</div>
@@ -502,12 +544,14 @@
         <svg id="barChart" class="viz" role="img" aria-label="Grouped and stacked bar chart of component costs"></svg>
       </article>
 
+      <!-- histogram: total price distribution across filtered games -->
       <article class="card">
         <h2>Total Price Distribution</h2>
         <div class="card-meta">Histogram of total hardware cost for currently filtered games.</div>
         <svg id="histChart" class="viz" role="img" aria-label="Histogram of total hardware price"></svg>
       </article>
 
+      <!-- summary: yearly average total price as a line chart -->
       <article class="card">
         <h2>Yearly Summary</h2>
         <div id="summaryMeta" class="card-meta">Counts and averages update with filters and selection.</div>
@@ -516,6 +560,7 @@
     </section>
   </div>
 
+  <!-- floating tooltip, positioned by js on mousemove -->
   <div id="tooltip" class="tooltip" role="tooltip" aria-hidden="true"></div>
 
   <script src="dashboard.js"></script>

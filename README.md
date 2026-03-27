@@ -14,6 +14,9 @@ Live dashboard: [https://m-yemer.github.io/CPSC582-DashboardVis/](https://m-yeme
 - Scatter plot (Total Hardware Cost Over Time): https://observablehq.com/@d3/scatterplot
 - Grouped bars (Average Component Cost by Year, grouped mode): https://observablehq.com/@d3/grouped-bar-chart
 - Stacked bars (Average Component Cost by Year, stacked mode): https://observablehq.com/@d3/stacked-bar-chart
+- Point selection + linked comparison pattern: https://observablehq.com/@d3/crossfilter
+
+- Brush/select interaction on scatter points: https://observablehq.com/@d3/brushable-scatterplot
 - Histogram (Total Price Distribution): https://observablehq.com/@d3/histogram
 - Line chart (Yearly Summary): https://observablehq.com/@d3/line-chart
 
@@ -22,9 +25,10 @@ Live dashboard: [https://m-yemer.github.io/CPSC582-DashboardVis/](https://m-yeme
 - Search input pattern (dataset search): https://observablehq.com/@observablehq/input-search
 - Observable Inputs overview (all controls): https://observablehq.com/documentation/inputs/overview
 
+- Dual-handle range slider (year filter): https://css-tricks.com/multi-thumb-sliders-particular-two-thumb-case/ , https://medium.com/@predragdavidovic10/native-dual-range-slider-html-css-javascript-91e778134816
+
 ## Calculation References
 
-References for the core calculations used in this dashboard:
 
 - Mean and median (used for metric cards and yearly averages): https://d3js.org/d3-array/summarize
 - Group + reduce by year with `rollups` (used in bar and summary charts): https://d3js.org/d3-array/group
@@ -33,7 +37,6 @@ References for the core calculations used in this dashboard:
 - Yearly trend line path generation with `line`: https://d3js.org/d3-shape/line
 - Frontier baseline with per-year minimum via `min`: https://d3js.org/d3-array/summarize
 
-Formula references used in the metrics:
 
 - Percent change / annualized trend idea (used for yearly trend metric): https://en.wikipedia.org/wiki/Relative_change_and_difference
 - Share of total (used for GPU share metric): https://en.wikipedia.org/wiki/Ratio
