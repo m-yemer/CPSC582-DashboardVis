@@ -213,7 +213,6 @@ appid,game_name,release_year,rec_cpu_requirement,rec_gpu_requirement,rec_ram_gb,
 1084640,Chicken Police - Paint it RED!,2020,Quad Core CPU - 3 GHZ,Nvidia GTX 760 / AMD R7 370,8,Intel Pentium E5700,14.99,GeForce GTX 760,269,,31.99,315.98
 1116580,Shady Part of Me,2020,AMD Athlon II X3 450 / Intel Core 2 Quad Q6600,"2 GB VRAM, AMD Radeon HD 7850 / Nvidia GeForce GTX 660",8,Intel Xeon E3-1220 V6,25,GeForce GTX 660,,,31.99,56.99
 1123230,HEXTERMINATE,2020,Intel(R) Core(TM) i5-2500 CPU @ 3.30GHz,NVIDIA GeForce GTX 2060,8,Intel Core i5-2500K,100,GeForce RTX 2060,309,,31.99,440.99
-1265360,3D Hentai Blackjack,2020,Processor 2.6 Ghz,Graphical Card with 1024 megabytes of video memory and support of DirectX 9.0,2.0,Intel Pentium E5700,14.99,GeForce 9500 GT,119.99,,11.74,146.72
 1299010,Overseer,2020,Intel 64-bit Quad Core,DX11 based graphics card,4,Intel Xeon E3-1220 V6,25,GeForce GTX 460,154.87,,11.77,191.64
 1420850,CyberTaxi,2020,Intel Core i5-7600 or AMD Ryzen 5 2600,NVIDIA GeForce GTX 1050 Ti 4GB or AMD Radeon R9 390,8,Intel Core i5-2400,49.99,GeForce GTX 1050 Ti,263.99,,31.99,345.97
 1178790,Shiren the Wanderer: The Tower of Fortune and the Dice of Fate,2020,"Intel(R) Core(TM) i3-530 2.93 Ghz, or better",DirectX 11.0 compatible GPU with at least 2GB of VRAM,4,Intel Core i3-530,45,GeForce GTX 760,269,,11.77,325.77

@@ -13,12 +13,48 @@
       --ink: #1d2939;
       --muted: #667085;
       --line: #d0d5dd;
+      --bg-glow-a: rgba(47, 128, 237, 0.08);
+      --bg-glow-b: rgba(39, 174, 96, 0.08);
+      --sticky-bg: rgba(255, 255, 255, 0.9);
+      --control-bg: #ffffff;
+      --tooltip-bg: #ffffff;
+      --tooltip-border: #e7e7ea;
+      --tooltip-ink: #111827;
+      --axis-ink: #334155;
+      --empty-ink: #64748b;
+      --summary-line: #475467;
+      --summary-dot: #0f172a;
+      --summary-dot-stroke: #ffffff;
+      --frontier-line: #f59e0b;
       --cpu: #2f80ed;
       --gpu: #eb5757;
       --ram: #27ae60;
       --accent: #0f172a;
       --shadow: 0 10px 24px rgba(16, 24, 40, 0.08);
       --radius: 14px;
+    }
+
+    :root[data-theme="dark"] {
+      --bg: #0b1220;
+      --card: #111a2b;
+      --ink: #e5edf8;
+      --muted: #9fb0c7;
+      --line: #263246;
+      --bg-glow-a: rgba(47, 128, 237, 0.2);
+      --bg-glow-b: rgba(39, 174, 96, 0.15);
+      --sticky-bg: rgba(12, 20, 34, 0.9);
+      --control-bg: #0f1828;
+      --tooltip-bg: #0f1828;
+      --tooltip-border: #2a3a52;
+      --tooltip-ink: #e5edf8;
+      --axis-ink: #b9c9df;
+      --empty-ink: #a1b2ca;
+      --summary-line: #93c5fd;
+      --summary-dot: #dbeafe;
+      --summary-dot-stroke: #1e293b;
+      --frontier-line: #fbbf24;
+      --accent: #60a5fa;
+      --shadow: 0 14px 32px rgba(2, 8, 20, 0.45);
     }
 
     * {
@@ -31,10 +67,11 @@
       font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
       color: var(--ink);
       background:
-        radial-gradient(circle at 100% 0%, rgba(47, 128, 237, 0.08) 0%, transparent 40%),
-        radial-gradient(circle at 0% 100%, rgba(39, 174, 96, 0.08) 0%, transparent 35%),
+        radial-gradient(circle at 100% 0%, var(--bg-glow-a) 0%, transparent 40%),
+        radial-gradient(circle at 0% 100%, var(--bg-glow-b) 0%, transparent 35%),
         var(--bg);
       min-height: 100vh;
+      transition: background 0.2s ease, color 0.2s ease;
     }
 
     .dashboard {
@@ -43,6 +80,18 @@
       padding: 22px;
       display: grid;
       gap: 18px;
+    }
+
+    .layout-shell {
+      display: grid;
+      grid-template-columns: 300px minmax(0, 1fr);
+      gap: 16px;
+      align-items: start;
+      transition: grid-template-columns 0.28s ease;
+    }
+
+    .layout-shell.sidebar-collapsed {
+      grid-template-columns: 74px minmax(0, 1fr);
     }
 
     .header,
@@ -56,6 +105,23 @@
 
     .header {
       padding: 20px 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .header-copy {
+      min-width: 0;
+    }
+
+    .theme-toggle {
+      width: auto;
+      cursor: pointer;
+      white-space: nowrap;
+      font-weight: 700;
+      padding: 8px 12px;
     }
 
     h1 {
@@ -70,19 +136,114 @@
       font-size: 0.96rem;
     }
 
+    .sidebar {
+      position: sticky;
+      top: 16px;
+      display: grid;
+      gap: 12px;
+      max-height: calc(100vh - 32px);
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding-right: 4px;
+      z-index: 12;
+    }
+
+    .sidebar-head {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      min-width: 0;
+    }
+
+    .sidebar-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      font-weight: 700;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .sidebar-toggle {
+      width: auto;
+      min-width: 40px;
+      cursor: pointer;
+      font-weight: 700;
+      padding: 7px 10px;
+      line-height: 1;
+    }
+
+    .main-panel {
+      display: grid;
+      gap: 16px;
+      min-width: 0;
+    }
+
+    .sticky-time {
+      position: sticky;
+      top: 12px;
+      z-index: 18;
+      background: var(--sticky-bg);
+      backdrop-filter: blur(7px);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 12px 14px;
+      display: grid;
+      gap: 8px;
+    }
+
+    .sticky-time .control-label {
+      margin: 0;
+    }
+
     /* ── filter controls panel ── */
     .controls {
       padding: 16px;
       display: grid;
       gap: 14px;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: 1fr;
       align-items: end;
+      overflow: hidden;
+      transition: padding 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
     }
 
     .control-group {
       display: grid;
       gap: 8px;
       min-width: 0;
+    }
+
+    .layout-shell.sidebar-collapsed .sidebar {
+      overflow: visible;
+    }
+
+    .layout-shell.sidebar-collapsed .controls {
+      padding: 0;
+      border-color: transparent;
+      box-shadow: none;
+      min-height: 0;
+      max-height: 0;
+    }
+
+    .layout-shell.sidebar-collapsed .controls .control-group {
+      opacity: 0;
+      pointer-events: none;
+      height: 0;
+      gap: 0;
+      overflow: hidden;
+    }
+
+    .layout-shell.sidebar-collapsed .sidebar-label {
+      display: none;
     }
 
     .control-label {
@@ -191,7 +352,8 @@
       width: 100%;
       border-radius: 9px;
       border: 1px solid var(--line);
-      background: #fff;
+      background: var(--control-bg);
+      color: var(--ink);
       padding: 8px 10px;
       font-size: 0.93rem;
     }
@@ -211,7 +373,7 @@
     .chip {
       width: auto;
       cursor: pointer;
-      background: #fff;
+      background: var(--control-bg);
       color: var(--ink);
       border: 1px solid var(--line);
       transition: all 0.2s ease;
@@ -299,6 +461,7 @@
 
     /* ── chart card containers ── */
     .card {
+      position: relative;
       padding: 12px;
       min-height: 360px;
       display: grid;
@@ -306,10 +469,101 @@
       gap: 6px;
     }
 
+    .card-expand-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: auto;
+      z-index: 2;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 6px 10px;
+      line-height: 1;
+      background: var(--control-bg);
+    }
+
+    .card-floating {
+      position: fixed;
+      z-index: 26;
+      left: 0;
+      top: 0;
+      width: 0;
+      height: 0;
+      margin: 0;
+      min-height: 0;
+      pointer-events: auto;
+      box-shadow: 0 24px 56px rgba(2, 6, 23, 0.28);
+    }
+
+    body.chart-focus-active .charts-grid .card:not(.card-floating) {
+      opacity: 0.65;
+      filter: saturate(0.9);
+    }
+
     .card h2 {
       margin: 4px 8px 0;
       font-size: 1.06rem;
       letter-spacing: 0.2px;
+      padding-right: 92px;
+    }
+
+    .intro-card {
+      display: block;
+      padding: 20px;
+      min-height: 0;
+      grid-template-rows: none;
+      max-height: 600px;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+
+    .intro-card.collapsed {
+      max-height: 80px;
+    }
+
+    .intro-card.collapsed .intro-card-content {
+      display: none;
+    }
+
+    .intro-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .intro-card-header h2 {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    .intro-card-toggle {
+      font-size: 1.2rem;
+      line-height: 1;
+      color: var(--muted);
+      transition: transform 0.3s ease;
+    }
+
+    .intro-card.collapsed .intro-card-toggle {
+      transform: rotate(-90deg);
+    }
+
+    .intro-card-content {
+      margin-top: 12px;
+      line-height: 1.6;
+      color: var(--ink);
+    }
+
+    .intro-card-content p {
+      margin: 0 0 10px 0;
+      font-size: 0.95rem;
+    }
+
+    .intro-card-content p:last-child {
+      margin-bottom: 0;
     }
 
     .card-meta {
@@ -329,8 +583,8 @@
     }
 
     .card-toolbar .chip {
-      padding: 6px 10px;
-      font-size: 0.84rem;
+      padding: 4px 8px;
+      font-size: 0.75rem;
     }
 
     .viz {
@@ -366,35 +620,37 @@
     .legend-line {
       width: 18px;
       height: 0;
-      border-top: 2px dashed #f59e0b;
+      border: 0;
+      border-top: 2px dashed var(--frontier-line);
+      border-radius: 0;
     }
 
     /* ── hover tooltip ── */
     .tooltip {
       position: fixed;
       pointer-events: none;
-      background: #fff;
-      border: 1px solid #e7e7ea;
+      background: var(--tooltip-bg);
+      border: 1px solid var(--tooltip-border);
       box-shadow: 0 10px 24px rgba(15, 23, 42, 0.2);
       border-radius: 10px;
       padding: 10px 12px;
       font-size: 0.84rem;
       line-height: 1.45;
-      color: #111827;
+      color: var(--tooltip-ink);
       opacity: 0;
       transition: opacity 0.2s ease;
-      z-index: 20;
+      z-index: 60;
       max-width: 320px;
     }
 
     .axis-label {
-      fill: #334155;
+      fill: var(--axis-ink);
       font-size: 12px;
       font-weight: 600;
     }
 
     .empty-msg {
-      fill: #64748b;
+      fill: var(--empty-ink);
       font-size: 13px;
       font-weight: 600;
       text-anchor: middle;
@@ -402,6 +658,46 @@
 
     /* ── responsive breakpoints ── */
     @media (max-width: 1024px) {
+      .layout-shell,
+      .layout-shell.sidebar-collapsed {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        position: static;
+        top: auto;
+        max-height: none;
+        overflow: visible;
+      }
+
+      .layout-shell.sidebar-collapsed .controls {
+        padding: 16px;
+        border-color: var(--line);
+        box-shadow: var(--shadow);
+        max-height: none;
+      }
+
+      .layout-shell.sidebar-collapsed .controls .control-group {
+        opacity: 1;
+        pointer-events: auto;
+        height: auto;
+        gap: 8px;
+      }
+
+      .layout-shell.sidebar-collapsed .sidebar-label {
+        display: inline;
+      }
+
+      .sticky-time {
+        top: 10px;
+      }
+
+      .card-floating {
+        left: 12px !important;
+        right: 12px !important;
+        width: auto !important;
+      }
+
       .metrics-strip {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
@@ -421,86 +717,111 @@
 <body>
   <div class="dashboard">
     <section class="header">
-      <h1>Steam Game Hardware Cost Dashboard</h1>
-      <div class="subtitle">Interactive D3 dashboard for yearly trends, component costs, and price distribution.</div>
+      <div class="header-copy">
+        <h1>Steam Game Hardware Cost Dashboard</h1>
+        <div class="subtitle">Interactive D3 dashboard for estimated recommended build trends, component mix, and price distribution.</div>
+      </div>
+      <button id="themeToggle" class="theme-toggle" aria-pressed="false" title="Switch theme">Dark Mode</button>
     </section>
 
-    <!-- dashboard filter controls panel -->
-    <section class="controls" aria-label="Dashboard controls">
-      <div class="control-group">
-        <label class="control-label" for="yearMin">Time Range</label>
-        <div class="range-wrap">
-          <div class="dual-range">
-            <div class="dual-range-track"></div>
-            <div id="yearRangeFill" class="dual-range-fill"></div>
-            <input id="yearMin" type="range" min="2015" max="2024" step="1" value="2015" aria-label="Minimum year" />
-            <input id="yearMax" type="range" min="2015" max="2024" step="1" value="2024" aria-label="Maximum year" />
+    <div id="layoutShell" class="layout-shell">
+      <!-- dashboard filter controls panel -->
+      <aside class="sidebar" aria-label="Filter panel">
+        <div class="sidebar-head">
+          <span class="sidebar-label">Dashboard Filters</span>
+          <button id="sidebarToggle" class="sidebar-toggle" aria-controls="filterControls" aria-expanded="true" title="Collapse filter panel">Collapse</button>
+        </div>
+
+        <section id="filterControls" class="controls" aria-label="Dashboard controls">
+          <div class="control-group">
+            <label class="control-label" for="gpuFilter">GPU Brand</label>
+            <select id="gpuFilter">
+              <option value="All">All</option>
+            </select>
           </div>
-          <div id="yearRangeLabel" class="range-values">2015 - 2024</div>
-        </div>
-      </div>
 
-      <div class="control-group">
-        <label class="control-label" for="gpuFilter">GPU Brand</label>
-        <select id="gpuFilter">
-          <option value="All">All</option>
-        </select>
-      </div>
+          <div class="control-group">
+            <label class="control-label" for="ramFilter">RAM Filter</label>
+            <select id="ramFilter">
+              <option value="All">All RAM</option>
+            </select>
+          </div>
 
-      <div class="control-group">
-        <label class="control-label" for="ramFilter">RAM Filter</label>
-        <select id="ramFilter">
-          <option value="All">All RAM</option>
-        </select>
-      </div>
+          <div class="control-group">
+            <label class="control-label" for="gameSearch">Search Game</label>
+            <input id="gameSearch" type="search" placeholder="Type a game name..." list="gameSuggestions" />
+            <datalist id="gameSuggestions"></datalist>
+          </div>
 
-      <div class="control-group">
-        <label class="control-label" for="gameSearch">Search Game</label>
-        <input id="gameSearch" type="search" placeholder="Type a game name..." list="gameSuggestions" />
-        <datalist id="gameSuggestions"></datalist>
-      </div>
+          <div class="control-group">
+            <label class="control-label">Insights</label>
+            <label class="check-row" for="showFrontier">
+              <input id="showFrontier" type="checkbox" checked />
+              Show yearly median line
+            </label>
+          </div>
 
-      <div class="control-group">
-        <label class="control-label">Insights</label>
-        <label class="check-row" for="showFrontier">
-          <input id="showFrontier" type="checkbox" checked />
-          Show lowest-cost line
-        </label>
-      </div>
+          <div class="control-group">
+            <label class="control-label">Components</label>
+            <div id="componentToggles" class="chip-row">
+              <button class="chip active" data-component="cpu">CPU</button>
+              <button class="chip active" data-component="gpu">GPU</button>
+              <button class="chip active" data-component="ram">RAM</button>
+            </div>
+          </div>
 
-      <div class="control-group">
-        <label class="control-label">Components</label>
-        <div id="componentToggles" class="chip-row">
-          <button class="chip active" data-component="cpu">CPU</button>
-          <button class="chip active" data-component="gpu">GPU</button>
-          <button class="chip active" data-component="ram">RAM</button>
-        </div>
-      </div>
+          <div class="control-group">
+            <label class="control-label">Compare Mode</label>
+            <div class="chip-row">
+              <button id="addToCompare" class="chip">Add Selected</button>
+              <button id="clearCompare" class="chip">Clear Compare</button>
+            </div>
+            <div id="compareStatus" class="compare-status">No games in compare queue (0/2)</div>
+          </div>
 
-      <div class="control-group">
-        <label class="control-label">Compare Mode</label>
-        <div class="chip-row">
-          <button id="addToCompare" class="chip">Add Selected</button>
-          <button id="clearCompare" class="chip">Clear Compare</button>
-        </div>
-        <div id="compareStatus" class="compare-status">No games in compare queue (0/2)</div>
-      </div>
+          <div class="control-group">
+            <label class="control-label">Selection</label>
+            <button id="clearSelection" class="clear-btn">Reset Dashboard to Default</button>
+          </div>
+        </section>
+      </aside>
 
-      <div class="control-group">
-        <label class="control-label">Selection</label>
-        <button id="clearSelection" class="clear-btn">Clear Selected Game</button>
-      </div>
-    </section>
+      <main class="main-panel">
+        <section class="sticky-time" aria-label="Sticky time range control">
+          <label class="control-label" for="yearMin">Time Range</label>
+          <div class="range-wrap">
+            <div class="dual-range">
+              <div class="dual-range-track"></div>
+              <div id="yearRangeFill" class="dual-range-fill"></div>
+              <input id="yearMin" type="range" min="2015" max="2024" step="1" value="2015" aria-label="Minimum year" />
+              <input id="yearMax" type="range" min="2015" max="2024" step="1" value="2024" aria-label="Maximum year" />
+            </div>
+            <div id="yearRangeLabel" class="range-values">2015 - 2024</div>
+          </div>
+        </section>
 
-    <!-- derived metric summary cards -->
-    <section class="metrics-strip" aria-label="Derived metrics">
+        <!-- intro explainer card -->
+        <article class="card intro-card" aria-label="Dashboard introduction">
+          <div class="intro-card-header" id="introCardHeader">
+            <h2>What You're Looking At</h2>
+            <span class="intro-card-toggle" aria-hidden="true">▼</span>
+          </div>
+          <div class="intro-card-content">
+            <p><strong>This project is an interactive visualization dashboard that analyzes the estimated cost of meeting Steam games' recommended hardware requirements.</strong> It focuses on CPU, GPU, and RAM for games released between 2015 and 2024.</p>
+            <p>This dashboard compares each game's release year with the estimated cost of building a PC in 2026 that can meet its recommended specifications.</p>
+            <p>By holding component prices in the present, the visualizations aim to isolate how demanding games are relative to one another depending on release year.</p>
+          </div>
+        </article>
+
+        <!-- derived metric summary cards -->
+        <section class="metrics-strip" aria-label="Derived metrics">
       <article class="metric-card">
         <div class="metric-label">Filtered Games</div>
         <div id="metricCount" class="metric-value">-</div>
         <div class="metric-sub">Amount of games currently filtered</div>
       </article>
       <article class="metric-card">
-        <div class="metric-label">Median Total Build Price</div>
+        <div class="metric-label">Median Estimated Build Price</div>
         <div id="metricMedianTotal" class="metric-value">-</div>
         <div class="metric-sub">Middle game in current slice</div>
       </article>
@@ -514,22 +835,31 @@
         <div id="metricYoY" class="metric-value">-</div>
         <div class="metric-sub">From first to last visible year</div>
       </article>
-    </section>
+        </section>
 
-    <!-- four chart panels -->
-    <section class="charts-grid">
-      <!-- scatter: total hardware cost over time -->
+        <!-- five chart panels in narrative order -->
+        <section class="charts-grid">
+      <!-- 1. summary: yearly average total price as a line chart (BIG PICTURE) -->
       <article class="card">
-        <h2>Total Hardware Cost Over Time</h2>
-        <div id="scatterMeta" class="card-meta">Scatter plot: point color by GPU brand; click a point to focus a game.</div>
-        <div id="scatterLegend" class="legend-inline" aria-label="Scatter plot legend"></div>
-        <svg id="scatterChart" class="viz" role="img" aria-label="Scatter plot of total hardware cost by release year"></svg>
+        <button class="card-expand-btn chip" data-chart-card="summary" aria-pressed="false" title="Enlarge this chart">Expand</button>
+        <h2>Average Estimated Total Build Cost by Release Year</h2>
+        <div id="summaryMeta" class="card-meta">See how estimated recommended build cost changes from year to year.</div>
+        <svg id="summaryChart" class="viz" role="img" aria-label="Summary chart"></svg>
       </article>
 
-      <!-- bar: component cost by year, selected game, or compare mode -->
+      <!-- 2. gpu dominance: gpu percentage of total cost over time (THE STORY) -->
       <article class="card">
-        <h2 id="barTitle">Average Component Cost by Year</h2>
-        <div id="barMeta" class="card-meta">Grouped bars show average CPU/GPU/RAM price per year.</div>
+        <button class="card-expand-btn chip" data-chart-card="gpu-dominance" aria-pressed="false" title="Enlarge this chart">Expand</button>
+        <h2>GPU Share by Release Year</h2>
+        <div id="gpuDominanceMeta" class="card-meta">Shows whether recommended builds are becoming more GPU-heavy over time.</div>
+        <svg id="gpuDominanceChart" class="viz" role="img" aria-label="GPU cost dominance trend"></svg>
+      </article>
+
+      <!-- 3. bar: component cost by year, selected game, or compare mode (THE BREAKDOWN) -->
+      <article class="card">
+        <button class="card-expand-btn chip" data-chart-card="bar" aria-pressed="false" title="Enlarge this chart">Expand</button>
+        <h2 id="barTitle">Average Estimated CPU, GPU, and RAM Cost by Release Year</h2>
+        <div id="barMeta" class="card-meta">Compare the estimated contribution of CPU, GPU, and RAM to the recommended build.</div>
         <div class="card-toolbar" aria-label="Bar chart mode controls">
           <div id="barModeToggles" class="chip-row">
             <button class="chip active" data-mode="grouped">Grouped View</button>
@@ -544,20 +874,25 @@
         <svg id="barChart" class="viz" role="img" aria-label="Grouped and stacked bar chart of component costs"></svg>
       </article>
 
-      <!-- histogram: total price distribution across filtered games -->
+      <!-- 4. scatter: total hardware cost over time (THE DETAILS) -->
       <article class="card">
-        <h2>Total Price Distribution</h2>
-        <div class="card-meta">Histogram of total hardware cost for currently filtered games.</div>
-        <svg id="histChart" class="viz" role="img" aria-label="Histogram of total hardware price"></svg>
+        <button class="card-expand-btn chip" data-chart-card="scatter" aria-pressed="false" title="Enlarge this chart">Expand</button>
+        <h2>Estimated Total Build Cost per Game by Release Year</h2>
+        <div id="scatterMeta" class="card-meta">Each dot is a game's estimated recommended build cost, colored by GPU brand.</div>
+        <div id="scatterLegend" class="legend-inline" aria-label="Scatter plot legend"></div>
+        <svg id="scatterChart" class="viz" role="img" aria-label="Scatter plot of total hardware cost by release year"></svg>
       </article>
 
-      <!-- summary: yearly average total price as a line chart -->
+      <!-- 5. histogram: total price distribution across filtered games (THE CONTEXT) -->
       <article class="card">
-        <h2>Yearly Summary</h2>
-        <div id="summaryMeta" class="card-meta">Counts and averages update with filters and selection.</div>
-        <svg id="summaryChart" class="viz" role="img" aria-label="Summary chart"></svg>
+        <button class="card-expand-btn chip" data-chart-card="hist" aria-pressed="false" title="Enlarge this chart">Expand</button>
+        <h2>Distribution of Estimated Total Build Cost</h2>
+        <div class="card-meta">See how widely estimated recommended build prices are spread within the current filter.</div>
+        <svg id="histChart" class="viz" role="img" aria-label="Histogram of total hardware price"></svg>
       </article>
-    </section>
+        </section>
+      </main>
+    </div>
   </div>
 
   <!-- floating tooltip, positioned by js on mousemove -->
