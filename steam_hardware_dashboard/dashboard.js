@@ -359,7 +359,7 @@ function updateMetrics() {
     const first = byYearAvg[0][1];
     const last = byYearAvg[byYearAvg.length - 1][1];
     const years = Math.max(1, byYearAvg[byYearAvg.length - 1][0] - byYearAvg[0][0]);
-    // annualised rate of change: total % difference divided by the year span
+    // annualized rate of change total % difference divided by the year span
     const annualPct = ((last - first) / Math.max(1, first)) * (100 / years);
     trendText = `${annualPct >= 0 ? "+" : ""}${d3.format(".1f")(annualPct)}%/yr`;
   }
@@ -546,7 +546,7 @@ function updateScatter() {
     })
     .on("mouseleave", hideTooltip)
     .on("click", (_, d) => {
-      state.selectedGame = d;
+      state.selectedGame = (state.selectedGame && isSameGame(d, state.selectedGame)) ? null : d;
       updateCharts();
     })
     .transition()
