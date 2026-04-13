@@ -640,7 +640,7 @@ function updateBarChart() {
   let data;
   let xValues;
   let xAxisLabel = "Release Year";
-  let title = "Average Estimated CPU, GPU, and RAM Cost by Release Year";
+  let title = "Average CPU, GPU, and RAM Cost by Release Year";
   let meta = "Grouped bars show average CPU/GPU/RAM price per year.";
 
   // compare takes priority; falls back to selected game, then yearly aggregate
@@ -657,7 +657,7 @@ function updateBarChart() {
     }));
     xValues = data.map(d => d.key);
     xAxisLabel = "Compared Games";
-    title = "Compared Games: Estimated CPU, GPU, and RAM Cost";
+    title = "Compared Games: CPU, GPU, and RAM Cost";
     const compareSummary = state.compareGames
       .map((d, i) => `${i === 0 ? "A" : "B"}=${d.game_name} (${d.release_year})`)
       .join(" | ");
@@ -678,7 +678,7 @@ function updateBarChart() {
     }];
     xValues = data.map(d => d.key);
     xAxisLabel = "Selected Game";
-    title = `Selected Game: Estimated CPU, GPU, and RAM Cost (${s.game_name})`;
+    title = `Selected Game: CPU, GPU, and RAM Cost (${s.game_name})`;
     meta = `Showing CPU, GPU, RAM cost for ${s.game_name} (${s.release_year}).`;
   } else {
     const roll = d3.rollups(

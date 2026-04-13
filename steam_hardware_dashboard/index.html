@@ -842,7 +842,7 @@
       <!-- 1. summary: yearly average total price as a line chart (BIG PICTURE) -->
       <article class="card">
         <button class="card-expand-btn chip" data-chart-card="summary" aria-pressed="false" title="Enlarge this chart">Expand</button>
-        <h2>Average Estimated Total Build Cost by Release Year</h2>
+        <h2>Average Total Build Cost by Release Year</h2>
         <div id="summaryMeta" class="card-meta">See how estimated recommended build cost changes from year to year.</div>
         <svg id="summaryChart" class="viz" role="img" aria-label="Summary chart"></svg>
       </article>
@@ -858,7 +858,7 @@
       <!-- 3. bar: component cost by year, selected game, or compare mode (THE BREAKDOWN) -->
       <article class="card">
         <button class="card-expand-btn chip" data-chart-card="bar" aria-pressed="false" title="Enlarge this chart">Expand</button>
-        <h2 id="barTitle">Average Estimated CPU, GPU, and RAM Cost by Release Year</h2>
+        <h2 id="barTitle">Average CPU, GPU, and RAM Cost by Release Year</h2>
         <div id="barMeta" class="card-meta">Compare the estimated contribution of CPU, GPU, and RAM to the recommended build.</div>
         <div class="card-toolbar" aria-label="Bar chart mode controls">
           <div id="barModeToggles" class="chip-row">
@@ -877,7 +877,7 @@
       <!-- 4. scatter: total hardware cost over time (THE DETAILS) -->
       <article class="card">
         <button class="card-expand-btn chip" data-chart-card="scatter" aria-pressed="false" title="Enlarge this chart">Expand</button>
-        <h2>Estimated Total Build Cost per Game by Release Year</h2>
+        <h2>Total Build Cost per Game by Release Year</h2>
         <div id="scatterMeta" class="card-meta">Each dot is a game's estimated recommended build cost, colored by GPU brand.</div>
         <div id="scatterLegend" class="legend-inline" aria-label="Scatter plot legend"></div>
         <svg id="scatterChart" class="viz" role="img" aria-label="Scatter plot of total hardware cost by release year"></svg>
@@ -886,7 +886,7 @@
       <!-- 5. histogram: total price distribution across filtered games (THE CONTEXT) -->
       <article class="card">
         <button class="card-expand-btn chip" data-chart-card="hist" aria-pressed="false" title="Enlarge this chart">Expand</button>
-        <h2>Distribution of Estimated Total Build Cost</h2>
+        <h2>Distribution of Total Build Cost</h2>
         <div class="card-meta">See how widely estimated recommended build prices are spread within the current filter.</div>
         <svg id="histChart" class="viz" role="img" aria-label="Histogram of total hardware price"></svg>
       </article>
