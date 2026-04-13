@@ -536,12 +536,12 @@ function updateScatter() {
       showTooltip(event, `
         <strong>${escapeHtml(d.game_name)}</strong><br>
         Year: ${d.release_year}<br>
-        CPU: $${fmt(d.cpu_price)}<br>
-        GPU: $${fmt(d.gpu_price)}<br>
-        RAM: $${fmt(d.ram_price)}<br>
+        CPU: $${fmt(d.cpu_price)} (${escapeHtml(d.cpu_name || "N/A")})<br>
+        GPU: $${fmt(d.gpu_price)} (${escapeHtml(d.gpu_name || "N/A")})<br>
+        RAM: $${fmt(d.ram_price)} (${escapeHtml(d.ram_name || "N/A")})<br>
         <strong>Total: $${fmt(d.total_price)}</strong><br>
         GPU Brand: ${escapeHtml(d.gpu_brand)}<br>
-        RAM: ${d.ram_gb} GB
+        Recommended RAM: ${d.ram_gb} GB
       `);
     })
     .on("mouseleave", hideTooltip)
@@ -650,6 +650,9 @@ function updateBarChart() {
       cpu: s.cpu_price,
       gpu: s.gpu_price,
       ram: s.ram_price,
+      cpu_name: s.cpu_name,
+      gpu_name: s.gpu_name,
+      ram_name: s.ram_name,
       total: s.total_price
     }));
     xValues = data.map(d => d.key);
@@ -663,7 +666,16 @@ function updateBarChart() {
       : `One game in compare queue. Add another for side-by-side view. ${compareSummary}`;
   } else if (state.selectedGame) {
     const s = state.selectedGame;
-    data = [{ key: `${s.game_name} (${s.release_year})`, cpu: s.cpu_price, gpu: s.gpu_price, ram: s.ram_price, total: s.total_price }];
+    data = [{
+      key: `${s.game_name} (${s.release_year})`,
+      cpu: s.cpu_price,
+      gpu: s.gpu_price,
+      ram: s.ram_price,
+      cpu_name: s.cpu_name,
+      gpu_name: s.gpu_name,
+      ram_name: s.ram_name,
+      total: s.total_price
+    }];
     xValues = data.map(d => d.key);
     xAxisLabel = "Selected Game";
     title = `Selected Game: Estimated CPU, GPU, and RAM Cost (${s.game_name})`;
@@ -724,7 +736,12 @@ function updateBarChart() {
     groups.transition(trans).attr("transform", d => `translate(${x0(d.key)},0)`);
 
     const bars = groups.selectAll("rect.component-bar")
-      .data(d => selectedComponents.map(c => ({ groupKey: d.key, component: c, value: d[c] || 0 })), d => d.component);
+      .data(d => selectedComponents.map(c => ({
+        groupKey: d.key,
+        component: c,
+        value: d[c] || 0,
+        componentName: d[`${c}_name`] || ""
+      })), d => d.component);
 
     bars.exit().transition(trans).attr("y", y(0)).attr("height", 0).remove();
 
@@ -744,7 +761,8 @@ function updateBarChart() {
       .attr("height", 0)
       .attr("fill", d => COLORS[d.component])
       .on("mousemove", (event, d) => {
-        showTooltip(event, `<strong>${escapeHtml(d.groupKey)}</strong><br>Component: ${d.component.toUpperCase()}<br>Value: $${fmt(d.value)}`);
+        const nameLine = d.componentName ? `<br>Name: ${escapeHtml(d.componentName)}` : "";
+        showTooltip(event, `<strong>${escapeHtml(d.groupKey)}</strong><br>Component: ${d.component.toUpperCase()}${nameLine}<br>Value: $${fmt(d.value)}`);
       })
       .on("mouseleave", hideTooltip)
       .transition(trans)
@@ -758,6 +776,11 @@ function updateBarChart() {
       ["cpu", "gpu", "ram"].forEach(c => {
         obj[c] = activeSet.has(c) ? d[c] : 0;
       });
+      obj.componentNames = {
+        cpu: d.cpu_name || "",
+        gpu: d.gpu_name || "",
+        ram: d.ram_name || ""
+      };
       return obj;
     });
 
@@ -773,7 +796,14 @@ function updateBarChart() {
       );
 
     const rects = layers.selectAll("rect")
-      .data(d => d.map(v => ({ key: d.key, x: v.data.key, y0: v[0], y1: v[1], value: v.data[d.key] })), d => `${d.key}-${d.x}`);
+      .data(d => d.map(v => ({
+        key: d.key,
+        x: v.data.key,
+        y0: v[0],
+        y1: v[1],
+        value: v.data[d.key],
+        componentName: v.data.componentNames ? v.data.componentNames[d.key] : ""
+      })), d => `${d.key}-${d.x}`);
 
     rects.exit().transition(trans).attr("height", 0).attr("y", y(0)).remove();
 
@@ -790,7 +820,8 @@ function updateBarChart() {
       .attr("y", y(0))
       .attr("height", 0)
       .on("mousemove", (event, d) => {
-        showTooltip(event, `<strong>${escapeHtml(d.x)}</strong><br>Component: ${d.key.toUpperCase()}<br>Value: $${fmt(d.value)}`);
+        const nameLine = d.componentName ? `<br>Name: ${escapeHtml(d.componentName)}` : "";
+        showTooltip(event, `<strong>${escapeHtml(d.x)}</strong><br>Component: ${d.key.toUpperCase()}${nameLine}<br>Value: $${fmt(d.value)}`);
       })
       .on("mouseleave", hideTooltip)
       .transition(trans)
@@ -1277,6 +1308,9 @@ function normalizeRow(d) {
 
   const gpuSource = d.gpu_brand || d.matched_gpu_chipset || d.rec_gpu_requirement || "";
   const ramSource = d.ram_gb ?? d.rec_ram_gb ?? d.matched_ram_size;
+  const cpu_name = firstNonEmpty(d.cpu_name, d.matched_cpu_chipset, d.rec_cpu_requirement);
+  const gpu_name = firstNonEmpty(d.gpu_name, d.matched_gpu_chipset, d.rec_gpu_requirement);
+  const ram_name = firstNonEmpty(d.ram_name, d.matched_ram_size, d.rec_ram_gb);
 
   return {
     game_name: d.game_name,
@@ -1285,9 +1319,27 @@ function normalizeRow(d) {
     gpu_price,
     ram_price,
     total_price,
+    cpu_name,
+    gpu_name,
+    ram_name,
     gpu_brand: d.gpu_brand || inferGpuBrand(gpuSource),
     ram_gb: toNumber(ramSource)
   };
+}
+
+function firstNonEmpty(...values) {
+  for (const value of values) {
+    if (value == null) {
+      continue;
+    }
+
+    const text = String(value).trim();
+    if (text) {
+      return text;
+    }
+  }
+
+  return "";
 }
 
 // coerces a csv string or number to a JS number, returning NaN if it cannot be parsed
